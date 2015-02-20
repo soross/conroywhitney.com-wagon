@@ -8,9 +8,7 @@
       veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum
       sonet eligendi, no pro dolorum minimum iudicabit. Ei dolore essent deseruisse
       nam, ea eam elitr dicunt viderer. Pri no nihil doctus.
-    skills:
-    - lorem
-    - dolor
+    skills: []
 - Voluptatum:
     _slug: voluptatum
     subtitle: Has et modus persecuti moderatius
@@ -21,9 +19,7 @@
       nam, commune convenire in pro. Ei nec dicant fierent, ius dictas doctus ne,
       ei case consequuntur qui. Eu mea viris accusam, sea movet phaedrum ne. Facer
       iudico eos te, eu nec vidit eleifend efficiantur.
-    skills:
-    - lorem
-    - dolor
+    skills: []
 - Conclusionemque:
     _slug: conclusionemque
     subtitle: Volutpat aliquando

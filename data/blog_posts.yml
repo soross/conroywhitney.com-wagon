@@ -36,9 +36,7 @@
       laboramus mel ut, quo te facilis placerat sadipscing. Duo an semper vituperata.
       Id mei omnes solet facilis, alii eruditi abhorreant ea pri.</p>
     published_on: 01/01/1970
-    skills:
-    - lorem
-    - dolor
+    skills: []
 - Minim dolor possit at mel, partem dolores mel et, an est posse qualisque:
     _slug: minim-dolor-possit-at-mel-partem-dolores-mel-et-an-est-posse-qualisque
     byline: Conroy Whitney
@@ -60,10 +58,7 @@
       antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
       at vel, dico corpora mel et.</p>
     published_on: 02/22/2222
-    skills:
-    - lorem
-    - ipsum
-    - dolor
+    skills: []
 - Id malis nostrud ius:
     _slug: id-malis-nostrud-ius
     byline: Conroy Whitney
