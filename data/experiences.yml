@@ -94,7 +94,7 @@
 - Attaché:
     _slug: attache
     subtitle: This Website. The one you are looking at right now.
-    dates: This Week
+    dates: '2015'
     description: "<p><strong><a href=\"https://github.com/conroywhitney/attache\">Attach&eacute;</a>:&nbsp;a&nbsp;portfolio
       theme using SemanticUI elements and LocomotiveCMS content types</strong></p>\r\n<ul>\r\n<li>Spreading
       the word about <a href=\"http://locomotivecms.com/\">LocomotiveCMS</a>&nbsp;and&nbsp;<a
@@ -104,4 +104,18 @@
       project</a> allows developers to jump right and get both feet wet with LocomotiveCMS
       and SemanticUI</li>\r\n</ul>"
     logo: /samples/experiences/attache/attache-logo.png
+    skills: []
+- Gringotts:
+    _slug: gringotts
+    subtitle: 2-Factor Authentication gem. Protego!
+    dates: '2013'
+    description: "<p><strong><a href=\"https://github.com/conroywhitney/gringotts\">Gringotts</a>:
+      </strong>a plug-and-play 2FA Rails engine.&nbsp;<span>It sends a&nbsp;</span><a
+      href=\"http://en.wikipedia.org/wiki/One-time_password\">one-time password</a><span>&nbsp;to
+      a user over SMS which is used to verify that the user is are who they say they
+      are.</span></p>\r\n<ul>\r\n<li>Test-driven development (TDD) and continuous
+      integration (CI)</li>\r\n<li>Integrates with Twilio account to send SMS to user
+      upon login from unknown device</li>\r\n<li>Promotes decentralized security and
+      privacy in an era of data breaches and surveilance</li>\r\n</ul>"
+    logo: /samples/experiences/gringotts/gringotts-logo.jpg
     skills: []

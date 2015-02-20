@@ -1,80 +1,161 @@
 ---
-- Ex oportere ullamcorper mel:
-    _slug: ex-oportere-ullamcorper-mel
+- The Struggle Against Entropy:
+    _slug: the-struggle-against-entropy
     byline: Conroy Whitney
-    description: Lorem ipsum dolor sit amet, modus habemus honestatis at vim, eu denique
-      electram qui. Ne labore elaboraret mea, eam ad vero fierent definitionem. Modus
-      veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum
-      sonet eligendi, no pro dolorum minimum iudicabit. Ei dolore essent deseruisse
-      nam, ea eam elitr dicunt viderer. Pri no nihil doctus.
-    content: Dicunt consequuntur interpretaris nam id, vim an pericula pertinacia,
-      vis prompta suscipit intellegam no. Oporteat petentium eu nam, has natum augue
-      aeque eu. Eam commune mentitum ut, soluta complectitur cu pri, est alii periculis
-      reprimique ne. Dolorum vocibus sit te, eos causae nominati ea. Eum ex paulo
-      dissentias, et vix cetero ceteros, est placerat lobortis deterruisset et. Deserunt
-      percipitur vim et, nulla fuisset vix ad.
-    published_on: 02/19/2015
+    description: We all know that entropy is going to win, eventually. That's considered
+      a given in physics. And empirically we can say that's true in our own lives.
+      Our laundry goes from clean to needing to be cleaned; our meals go from cooked
+      to eaten; our bodies go from born to dead. Even when we make efforts every day
+      to slow or reverse these processes, eventually, inevitably, entropy will win.
+    content: "<p>I often think about whatever job I'm doing as a \"struggle against
+      entropy\".&nbsp;<a title=\"Muse - 2nd Law - Unsustainable\" href=\"https://www.youtube.com/watch?v=EF_xdvn52As\">Entropy,
+      as Muse explains it:</a></p>\r\n<blockquote>All natural and technological processes
+      proceed in such a way that the availability of the remaining energy decreases.
+      In all energy exchanges, if no energy enters or leaves an isolated system the
+      entropy of that system increases. Energy continuously flows from being concentrated
+      to becoming dispersed spread out, wasted and useless. New energy cannot be created
+      and high-grade energy is being destroyed. An economy based on endless growth
+      is unsustainable.</blockquote>\r\n<p>We all know that entropy is going to win,
+      eventually. That's considered a given in physics. And empirically we can say
+      that's true in our own lives. Our laundry goes from clean to needing to be cleaned;
+      our meals go from cooked to eaten; our bodies go from born to dead. Even when
+      we make efforts every day to slow or reverse these processes, eventually, inevitably,
+      entropy will win.</p>\r\n<p>Some jobs, the amount accomplished vs. the effort
+      put in forms a sort of logarithmic graph. For example, working as a bartender:
+      at the end of the day, after all your customers have been served, your bar is
+      clean, your glasses are clean, your trash is taken out, you have re-stocked,
+      and you are ready for the next shift. If you don't do everything well, you'll
+      be behind the next day, and things will be harder going; the lack of effort
+      compounds to form a morass of difficulty. However, there is no getting ahead;
+      even if you clear every ashtray and wipe every counter as soon as they are dirtied;
+      even if you restock every cold beer as soon as it is served; you still can only
+      reach a certain output. You still, at the end of the day, will end up with clean
+      floors, clean glasses, and a fresh start for a new shift. Any optimizations
+      on top of that (a better inventory or POS system, batching work when mixing
+      drinks, etc.) only gains a small amount of additional output. Hence the logarithmic
+      graph. Eventually you come to the limit of how much you can optimize that type
+      of job.</p>\r\n<p>Other jobs, however, form an exponential graph in terms of
+      amount accomplished vs. inputted effort. Technology plays a key role in these
+      situations. Any time when you can replace work that a human normally needs to
+      do with a (semi-)automated system, you are increasing your output relative to
+      input. And if your job is to create said technology, then your input outputs
+      an output that in return multiplies future inputs: exponential. It's acceleration:
+      applying the same amount of force equally over time results in a compounded
+      velocity. It's a form of bootstrapping: companies (specifically startups), building
+      ideas and systems around existing ideas and systems until they can impact 10,
+      then 100, then 1,000, then 100,000, then 1,000,000 users; not with 1,000,000
+      times the effort, as it would be if you were trying to run a bar with 1,000,000
+      customers; but instead with (roughly) the same (probably less than a factor
+      or two of 10) amount of man-hours.</p>\r\n<p>And that's our ultimate weapon
+      in the struggle against entropy: our time. Some things require linear relations
+      for our efforts: sleeping, exercise, hobbies, volunteering, time with family,
+      watching TV. But for me, work -- where I spend at least 1/3 of my day -- is
+      an area where I constantly look for areas to improve my multiplier. If there
+      is a task that I am frequently needing to perform that seems like a good candidate
+      for automation, I&nbsp;<em>need</em>&nbsp;to automate it. Why? Because if I
+      don't, I feel like I'm stuck in a hamster wheel running in the same circle over
+      and over. I don't want to solve the same problems every day, day in, day out.
+      I want to solve new problems; interesting problems; problems that make tomorrow
+      better than today. Because these types of problems mean that in the struggle
+      against entropy, I'm not just entrenched, holding the line, content to not be
+      losing ground; no, I'm winning battles, advancing forward, and marching towards
+      a goal that grows ever-nearer. And in this struggle against entropy, technology
+      is my rearguard, allowing a retreat to a safety zone of automated processes
+      and analyzable numbers so that even when I lose a battle, all is not lost. We
+      can pick up our wills and fight the struggle against entropy for yet another
+      day.</p>"
+    published_on: 03/05/2014
+    image: /samples/blog_posts/the-struggle-against-entropy/entropy.jpeg
     skills: []
-- Ei augue movet rationibus sea, eu corrumpit definitiones sea:
-    _slug: ei-augue-movet-rationibus-sea-eu-corrumpit-definitiones-sea
+- Motivations:
+    _slug: motivations
     byline: Conroy Whitney
-    description: Te est harum omnes, admodum disputando repudiandae ex eam, in cum
-      petentium instructior. Eum quas corpora in, omnesque tincidunt id per. Ne pro
-      nostrud philosophia, in virtute diceret mnesarchum quo. An mutat cetero signiferumque
-      sit.
-    content: <p>Wisi consetetur id nam, eum alii fierent ex. Cum quaestio praesent
-      deterruisset te, te qui eius cetero consequat. Quo an nisl prima molestie, cu
-      quas harum eum. Alienum propriae theophrastus an duo. Latine persius quo no.
-      Has dico numquam voluptatibus eu, nec delenit nusquam te, est elit mediocrem
-      at. Eos cu aeterno persius, ad cum decore putent facilisis.</p><p>His quaeque
-      placerat sententiae eu, vim brute possit intellegebat te, mel ei causae eirmod
-      quaerendum. Ne eum tacimates iudicabit, ex nec dicit mentitum. Eu duo stet quaeque.
-      Clita nostro evertitur at duo, ne sed salutandi accusamus, his id inani sonet.
-      Recusabo referrentur ea pro, debet omnes iuvaret has et.</p><p>Id malis nostrud
-      ius, et per ludus nonumes fabellas, vivendum eleifend cu est. Duo ne cibo postulant
-      patrioque, ex pri vero altera. Pri ea dicam saperet pertinacia, graeco scaevola
-      laboramus mel ut, quo te facilis placerat sadipscing. Duo an semper vituperata.
-      Id mei omnes solet facilis, alii eruditi abhorreant ea pri.</p>
-    published_on: 01/01/1970
+    description: 'Take a moment and reflect on why it is that you do what you do.
+      Have some meta-thoughts: thinking about why it is that you are thinking what
+      you’re thinking. The only way to change the future is to notice the present
+      decide to act.'
+    content: "<p>All day long, our brains are chugging away, one thought after another.
+      Do I press snooze or go for a run? Oatmeal or smoothie? Black shirt or blue
+      shirt? Time to go to work. Work, work, work. OK, work&rsquo;s done. Do I go
+      for a run? What&rsquo;s for dinner? Go to bed or open one more reddit link?</p>\r\n<p>When
+      we work, is it because of what we want to give to the job? Or because of what
+      we want the job to give us? In the first situation, we are motivated by the
+      work itself; we have clear goals and reasons for participation and, if they
+      are no longer being met, we are free to switch our focus to something else on
+      which we want to spend our time. In the latter situation, we are motivated by
+      the effects of the job, such as money or career advancement; the job is not
+      inherently special to us; it&rsquo;s simply a means to an end.</p>\r\n<p>Take
+      a moment and reflect on why it is that you do what you do. Have some meta-thoughts:
+      thinking about why it is that you are thinking what you&rsquo;re thinking. The
+      only way to change the future is to notice the present decide to act.</p>"
+    published_on: 01/08/2014
+    image: /samples/blog_posts/motivations/make-a-difference.jpg
     skills: []
-- Minim dolor possit at mel, partem dolores mel et, an est posse qualisque:
-    _slug: minim-dolor-possit-at-mel-partem-dolores-mel-et-an-est-posse-qualisque
+- Appraising Your Gem:
+    _slug: appraising-your-gem
     byline: Conroy Whitney
-    description: Minim dolor possit at mel, partem dolores mel et, an est posse qualisque.
-      Ne ignota singulis torquatos mel, duo praesent deterruisset interpretaris ei,
-      ex omittam recusabo sea. Ut vis integre gubergren cotidieque, elitr saepe diceret
-      nam no. Pro unum assueverit interesset no. Quo vide accusamus ut.
-    content: <p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo
-      deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit
-      scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel
-      ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro
-      eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata,
-      cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant
-      nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum
-      patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae.
-      Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad
-      iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri
-      definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu
-      antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
-      at vel, dico corpora mel et.</p>
-    published_on: 02/22/2222
-    skills: []
-- Id malis nostrud ius:
-    _slug: id-malis-nostrud-ius
-    byline: Conroy Whitney
-    description: Vivendum eleifend cu est
-    content: <p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo
-      deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit
-      scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel
-      ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro
-      eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata,
-      cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant
-      nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum
-      patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae.
-      Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad
-      iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri
-      definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu
-      antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
-      at vel, dico corpora mel et.</p>
-    published_on: 12/31/2345
+    description: Thoughtbot has done it again with appraisal, a neat and nifty gem
+      for testing your gem in different ruby and rails environments. It's especially
+      useful when combined with Travis to specify which continuous integration environments
+      should be used or ignored..
+    content: "<p>One might argue that the more versions of ruby and rails your gem
+      supports, the more valuable it is to the general population. Well, I guess it&nbsp;<em>does</em>&nbsp;also
+      depend on what your gem does (<a href=\"https://github.com/busyloop/lolcat\">rainbows
+      and unicorns?</a>).</p>\r\n<p>Thoughtbot has done it again with&nbsp;<a href=\"https://github.com/thoughtbot/appraisal\">appraisal</a>,
+      a neat and nifty gem for testing your gem in different ruby and rails environments.
+      It's especially useful when combined with Travis to specify which continuous
+      integration environments should be used or ignored. (see&nbsp;<a href=\"https://github.com/conroywhitney/gringotts/blob/master/.travis.yml\">gringott's
+      travis.yml</a>&nbsp;for an example).</p>\r\n<p><strong>Note:</strong>&nbsp;<a
+      href=\"https://github.com/thoughtbot/appraisal/blob/master/README.md\">appraisal's
+      README</a>&nbsp;on github is curently for for the 1.0.0.beta2 version. This
+      can be confusing since the current rubygems version (and what you get if you
+      just do&nbsp;<code>gem \"appraisal\"</code>&nbsp;is 0.5.2. You can either use
+      the beta version with&nbsp;<code>gem \"appraisal\", \"1.0.0.beta2\"</code>,
+      or, you can use&nbsp;<a href=\"https://github.com/thoughtbot/appraisal/blob/v0.5.2/README.md\">the
+      0.5.2 version of the README</a></p>\r\n<p>As mentioned in the README, you can
+      run your spec and cucumber tests against these ruby/rails versions using appraisal.
+      What's&nbsp;<em>not</em>&nbsp;mentioned, though, is that you can also run your
+      local webserver against your different appraisals as well.</p>\r\n<p>Since appraisal
+      essentially just pre-compiles the bundles that you are going to use for your
+      different appraisals (e.g., rails-3.2, rails-4.0), you can use that to your
+      advantage:</p>\r\n<p>First, find out the path to the bundle that you want to
+      test locally:</p>\r\n<pre><code> rake appraisal:install\r\n</code></pre>\r\n<p>Look
+      for the line that like:</p>\r\n<pre><code> bundle check --gemfile='/pathbot/to/rails/engine/gemfiles/rails_4.0.gemfile'\r\n</code></pre>\r\n<p>We
+      are going to hand that path to our webserver so it knows what bundle to use.
+      However, instead of using the --gemfile option, we are going to pass it as an
+      inline environment variable:</p>\r\n<pre><code> BUNDLE_GEMFILE='/path/to/rails/app/gemfiles/rails_3.2.gemfile'
+      bundle exec rails server\r\n</code></pre>\r\n<p>Or, if you are developing an
+      engine, you can run your dummy app's rails server using</p>\r\n<pre><code> BUNDLE_GEMFILE='/path/to/rails/engine/gemfiles/rails_3.2.gemfile'
+      bundle exec spec/dummy/bin/rails server\r\n</code></pre>\r\n<p><strong>Note:</strong>&nbsp;spec/dummy
+      is the location of your engine's dummy app. This might instead be in test/dummy,
+      depending on how you set your engine up.</p>\r\n<p>Running a local webserver
+      against different ruby/rails appraisals is useful for being able to manually
+      play around with why a particular test might not be working in a particular
+      bundle (e.g.,only on ruby-1.9.3@rails-3.2).</p>\r\n<p>One last thing, maybe
+      this was just something quirky on my end, but I ended up having issues when
+      running my rake tests against my rails-3.* appraisals. I kept encountering this
+      error:</p>\r\n<pre><code> undefined method `migration_error=' for ActiveRecord::Base:Class\r\n</code></pre>\r\n<p>Unable
+      to find a solution, I am embarassed to say that I instead took the lazy (and
+      very time-consuming) way out of repeatedly pushing to github after every commit
+      so that Travis would run my rails-3.* tests for me so I could debug where my
+      issue might be occurring. That wasted not only a lot of my time (5 minutes between
+      fix and result), but also a lot of Travis' server hours... Sorry guys! Let me
+      know how I can&nbsp;<a href=\"https://love.travis-ci.org/\">show you some love</a>.</p>\r\n<p>Anyway,
+      the hidden clue to the solution to the&nbsp;<code>undefined method</code>&nbsp;issue
+      was hidden in one of the comments on one of the unaccepted answers of&nbsp;<a
+      href=\"http://stackoverflow.com/questions/18000712/rake-aborted-undefined-method-migration-error-for-activerecordbaseclass\">one
+      of the StackOverflow questions</a>. As Iliya Stepanov points out,</p>\r\n<blockquote>\r\n<p>It
+      was one string in config/initializers or environment. I don't remember exactly
+      what string it was, but check carefully that files if you rolling back from
+      Rails 4 to 3 and facing similar problems.</p>\r\n</blockquote>\r\n<p>It turns
+      out that in&nbsp;<code>spec/dummy/config/environments/development.rb</code>&nbsp;there
+      is this line:</p>\r\n<pre><code> config.active_record.migration_error = :page_load\r\n</code></pre>\r\n<p>I
+      commented that out, and everything worked hunky dorey. It doesn't make me happy
+      to think that I am suppressing potentially useful errors, but there were no
+      migrations that needed to be migrated. Also, I'm pretty sure that might have
+      only been related to the fact that I created a rails4 engine, then was trying
+      to backport its dummy to rails3. Pretty sure.</p>\r\n<p><a href=\"http://www.youtube.com/watch?v=qKVVDAKi_d4\">And
+      that's the end of that that chapter.</a></p>"
+    published_on: 11/19/2013
+    image: /samples/blog_posts/appraising-your-gem/prospector.jpg
     skills: []
