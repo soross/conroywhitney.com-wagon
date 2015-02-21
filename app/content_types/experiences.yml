@@ -42,6 +42,13 @@ fields:
     required: false
     unique: false
     localized: false
+- url:
+    label: URL
+    type: string
+    hint: Link to company, university, etc.
+    required: false
+    unique: false
+    localized: false
 - skills:
     label: Skills
     type: many_to_many
