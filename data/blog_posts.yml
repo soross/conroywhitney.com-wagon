@@ -1,4 +1,22 @@
 ---
+- SQL != Memcache != Mongo != Redis:
+    _slug: sql-memcache-mongo-redis
+    byline: Conroy Whitney
+    description: I love me some noSQL. However, there is a time and a place for each
+      technology. I put this presentation together for Asheville Coder's League in
+      2014. There slides are below, followed by a recording of my presentation. (sorry
+      for the potato quality)
+    content: "<p>I love me some noSQL. However, there is a time and a place for each
+      technology. I put this presentation together for <a href=\"http://www.meetup.com/Asheville-Coders-League/\">Asheville
+      Coder's League</a> in 2014. There slides are below, followed by a recording
+      of my presentation. (<a href=\"http://knowyourmeme.com/memes/recorded-with-a-potato\">sorry
+      for the potato quality</a>)</p>\r\n<h2>Prezi Presentation</h2>\r\n<p><iframe
+      width=\"550\" height=\"400\" frameborder=\"0\" allowfullscreen=\"\" src=\"http://prezi.com/embed/wkwsffkxmnsp/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0#\"></iframe></p>\r\n<h2>YouTube
+      Video</h2>\r\n<p><iframe width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"
+      src=\"https://www.youtube.com/embed/o0HB80YBAhE\"></iframe></p>"
+    published_on: 08/20/2014
+    image: /samples/blog_posts/sql-memcache-mongo-redis/is_not_1.png
+    skills: []
 - The Struggle Against Entropy:
     _slug: the-struggle-against-entropy
     byline: Conroy Whitney
@@ -240,7 +258,7 @@
       it. What we as product managers may see as &ldquo;glaring&rdquo; errors or omissions
       in the product may not be noticed or missed by the customer.</p>"
     published_on: 12/21/2012
-    image: /samples/blog_posts/good-enough-never-is/is_not_1.png
+    image: /samples/blog_posts/good-enough-never-is/jumping-man.jpg
     skills: []
 - Social Proof with Redis:
     _slug: social-proof-with-redis

@@ -6,47 +6,13 @@
     experiences: []
 - Heroku:
     _slug: heroku
+    description: Focus on your app, not your hosting
     image: /samples/skills/heroku/heroku-logo.png
     experiences: []
 - PostgreSQL:
     _slug: postgresql
+    description: SQL + Hashtables + JSON = Yes please!
     image: /samples/skills/postgresql/postgresql-logo.png
-    experiences: []
-- New Relic:
-    _slug: new-relic
-    image: /samples/skills/new-relic/newrelic-logo.png
-    experiences: []
-- Amazon S3:
-    _slug: amazon-s3
-    image: /samples/skills/amazon-s3/aws-s3-logo.png
-    experiences: []
-- Amazon EC2:
-    _slug: amazon-ec2
-    image: /samples/skills/amazon-ec2/aws-ec2-logo.png
-    experiences: []
-- AWS CloudFront:
-    _slug: aws-cloudfront
-    image: /samples/skills/aws-cloudfront/aws-cloudfront-logo.png
-    experiences: []
-- Memcache:
-    _slug: memcache
-    image: /samples/skills/memcache/memcache-logo.png
-    experiences: []
-- Resque:
-    _slug: resque
-    url: https://github.com/resque/resque
-    image: /samples/skills/resque/resque-logo.png
-    experiences: []
-- Cron / Scheduler:
-    _slug: cron-scheduler
-    url: https://devcenter.heroku.com/articles/scheduler
-    image: /samples/skills/cron-scheduler/heroku-scheduler-logo.png
-    experiences: []
-- Rake:
-    _slug: rake
-    description: One-off tasks that make the business hum
-    url: https://github.com/ruby/rake
-    image: /samples/skills/rake/ruby-rake-not-real-logo.png
     experiences: []
 - Ruby:
     _slug: ruby
@@ -54,47 +20,16 @@
     url: https://www.ruby-lang.org/en/
     image: /samples/skills/ruby/ruby-logo.png
     experiences: []
-- Sinatra:
-    _slug: sinatra
-    description: Don't use a machete when you need a scalpel.
-    url: http://www.sinatrarb.com/
-    image: /samples/skills/sinatra/sinatra-logo.png
+- New Relic:
+    _slug: new-relic
+    description: Websites are no longer black boxes.
+    image: /samples/skills/new-relic/newrelic-logo.png
     experiences: []
-- LocomotiveCMS:
-    _slug: locomotivecms
-    description: Rails + CMS = The best of both worlds.
-    url: http://locomotivecms.com/
-    image: /samples/skills/locomotivecms/locomotivecms-logo.png
-    experiences: []
-- Rspec:
-    _slug: rspec
-    description: I don't think that method does what you think it does.
-    url: http://rspec.info/
-    image: /samples/skills/rspec/rspec-logo.png
-    experiences: []
-- Cucumber:
-    _slug: cucumber
-    description: What should it do? Does it do that?
-    url: https://cukes.info/
-    image: /samples/skills/cucumber/cucumber-logo.png
-    experiences: []
-- Browser Stack:
-    _slug: browser-stack
-    description: Cross-browser compatibility for the modern era
-    url: http://www.browserstack.com/
-    image: /samples/skills/browser-stack/logo-browser-stack.png
-    experiences: []
-- Travis CI:
-    _slug: travis
-    description: What's the point of all those tests if you don't run them?
-    url: https://travis-ci.org/
-    image: /samples/skills/travis/travis-ci-logo.png
-    experiences: []
-- MySQL:
-    _slug: mysql
-    description: Original Gangster Open Source MySQL. Respect.
-    url: http://www.mysql.com/
-    image: /samples/skills/mysql/mysql-logo.png
+- Rake:
+    _slug: rake
+    description: One-off tasks that make the business hum
+    url: https://github.com/ruby/rake
+    image: /samples/skills/rake/ruby-rake-not-real-logo.png
     experiences: []
 - Redis:
     _slug: redis
@@ -108,23 +43,28 @@
     url: http://www.mongodb.org/
     image: /samples/skills/mongodb/mongodb-logo.png
     experiences: []
-- SemanticUI:
-    _slug: semantic-ui
-    description: User Interface is the vocabulary of the web
-    url: http://semantic-ui.com/
-    image: /samples/skills/semantic-ui/semanticui-logo.png
+- Memcache:
+    _slug: memcache
+    description: Semi-static content, delivered in a jiffy
+    image: /samples/skills/memcache/memcache-logo.png
     experiences: []
-- Bootstrap:
-    _slug: bootstrap
-    description: Mobile-first responsive website design
-    url: http://getbootstrap.com/
-    image: /samples/skills/bootstrap/bootstrap-logo.png
+- Rspec:
+    _slug: rspec
+    description: I don't think that method does what you think it does.
+    url: http://rspec.info/
+    image: /samples/skills/rspec/rspec-logo.png
     experiences: []
-- jQuery:
-    _slug: jquery
-    description: Rich web apps since before AJAX had a name
-    url: http://jquery.com/
-    image: /samples/skills/jquery/jquery-logo.gif
+- Cucumber:
+    _slug: cucumber
+    description: What should it do? Does it do that?
+    url: https://cukes.info/
+    image: /samples/skills/cucumber/cucumber-logo.png
+    experiences: []
+- Travis CI:
+    _slug: travis
+    description: What's the point of all those tests if you don't run them?
+    url: https://travis-ci.org/
+    image: /samples/skills/travis/travis-ci-logo.png
     experiences: []
 - HTML5:
     _slug: html5
@@ -138,11 +78,82 @@
     url: http://www.css3.info/
     image: /samples/skills/css3/css3-logo.png
     experiences: []
+- jQuery:
+    _slug: jquery
+    description: Rich web apps since before AJAX had a name
+    url: http://jquery.com/
+    image: /samples/skills/jquery/jquery-logo.gif
+    experiences: []
+- LocomotiveCMS:
+    _slug: locomotivecms
+    description: Rails + CMS = The best of both worlds.
+    url: http://locomotivecms.com/
+    image: /samples/skills/locomotivecms/locomotivecms-logo.png
+    experiences: []
+- Sinatra:
+    _slug: sinatra
+    description: 'Don''t use a machete when you need a scalpel. (hint: Sinatra''s
+      the scalpel)'
+    url: http://www.sinatrarb.com/
+    image: /samples/skills/sinatra/sinatra-logo.png
+    experiences: []
+- Resque:
+    _slug: resque
+    description: If it takes more than a blink of the eye to run, it should probably
+      be queued.
+    url: https://github.com/resque/resque
+    image: /samples/skills/resque/resque-logo.png
+    experiences: []
+- Amazon S3:
+    _slug: amazon-s3
+    description: Store all the things!
+    image: /samples/skills/amazon-s3/aws-s3-logo.png
+    experiences: []
+- Amazon EC2:
+    _slug: amazon-ec2
+    description: Scale up. Scale down. Scale up. Scale down.
+    image: /samples/skills/amazon-ec2/aws-ec2-logo.png
+    experiences: []
+- AWS CloudFront:
+    _slug: aws-cloudfront
+    description: Static content, delivered in a jiffy
+    image: /samples/skills/aws-cloudfront/aws-cloudfront-logo.png
+    experiences: []
 - Git:
     _slug: git
     description: Distributed is the new centralized
     url: http://git-scm.com/
     image: /samples/skills/git/git-logo.png
+    experiences: []
+- Linux Command Line:
+    _slug: linux
+    description: Who *really* needs a User Interface, anyway?
+    url: http://www.linuxfoundation.org/
+    image: /samples/skills/linux/linux-logo.png
+    experiences: []
+- MySQL:
+    _slug: mysql
+    description: Original Gangster Open Source MySQL. Respect.
+    url: http://www.mysql.com/
+    image: /samples/skills/mysql/mysql-logo.png
+    experiences: []
+- SemanticUI:
+    _slug: semantic-ui
+    description: User Interface is the vocabulary of the web
+    url: http://semantic-ui.com/
+    image: /samples/skills/semantic-ui/semanticui-logo.png
+    experiences: []
+- Bootstrap:
+    _slug: bootstrap
+    description: Mobile-first responsive website design
+    url: http://getbootstrap.com/
+    image: /samples/skills/bootstrap/bootstrap-logo.png
+    experiences: []
+- Browser Stack:
+    _slug: browser-stack
+    description: Cross-browser compatibility for the modern era
+    url: http://www.browserstack.com/
+    image: /samples/skills/browser-stack/logo-browser-stack.png
     experiences: []
 - RVM:
     _slug: rvm
@@ -156,11 +167,11 @@
     url: https://www.apple.com/osx/
     image: /samples/skills/osx/osx-logo-mavericks.png
     experiences: []
-- Linux Command Line:
-    _slug: linux
-    description: Who *really* needs a User Interface, anyway?
-    url: http://www.linuxfoundation.org/
-    image: /samples/skills/linux/linux-logo.png
+- Cron / Scheduler:
+    _slug: cron-scheduler
+    description: Automate those pesky tasks so you can go on to do better things
+    url: https://devcenter.heroku.com/articles/scheduler
+    image: /samples/skills/cron-scheduler/heroku-scheduler-logo.png
     experiences: []
 - Bundler:
     _slug: bundler
