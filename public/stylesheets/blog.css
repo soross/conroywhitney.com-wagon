@@ -37,3 +37,12 @@
 #blog .post p {
   font-size: 1.25em;
 }
+
+
+@media only screen and (max-width : 768px) {
+
+  #blog .post {
+    padding: 0em;
+  }
+
+}
