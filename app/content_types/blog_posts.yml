@@ -3,8 +3,8 @@ name: Blog Posts
 description: Write about what you know
 slug: blog_posts
 label_field_name: title
-order_by: manually
-order_direction: asc
+order_by: published_on
+order_direction: desc
 fields:
 - title:
     label: Title
@@ -27,6 +27,7 @@ fields:
     required: true
     unique: false
     localized: false
+    text_formatting: none
 - content:
     label: Content
     type: text
@@ -57,5 +58,5 @@ fields:
     unique: false
     localized: false
     class_name: skills
-    inverse_of: blog_posts
+    inverse_of: experiences
     ui_enabled: true
