@@ -11,7 +11,7 @@ fields:
     type: string
     hint: Name of employer, school, etc.
     required: true
-    unique: true
+    unique: false
     localized: false
 - subtitle:
     label: Subtitle

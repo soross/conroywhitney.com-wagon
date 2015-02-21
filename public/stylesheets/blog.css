@@ -6,6 +6,15 @@
   margin-bottom: 2em;
 }
 
+#blog .piled.segment .content {
+  overflow: hidden;
+  margin: 2em;
+}
+
+#blog .piled.segment .content .header {
+  margin: 0em;
+}
+
 #blog .post {
   padding: 2em 4em;
   overflow: hidden;

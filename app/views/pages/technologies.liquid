@@ -1,0 +1,29 @@
+---
+title: Tools & Technologies
+slug: technologies
+is_layout: false
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 2
+seo_title: Tools & Technologies - Conroy Whitney - Rails Web Developer
+meta_description: A list of the various tools, products, and technologies that I use
+  on a regular basis to build the rich, responsive, well-tested, and world-changing
+  rails applications that I am wont to build.
+---
+{% extends 'index' %}
+
+{% block 'main' %}
+
+  <div class="ui vertical segment">
+    <div class="ui stackable centered page grid">
+
+      {% for skill in contents.skills %}
+        {% include 'skill_grid_item' with skill %}
+      {% endfor %}
+
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+
+{% endblock %}

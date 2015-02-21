@@ -4,9 +4,9 @@
     summary: Education and Employment
     icon: student
     published: true
-- Skills:
-    _slug: skills
-    summary: Unique specialities
+- Technologies:
+    _slug: technologies
+    summary: How I do what I do
     icon: code
     published: true
 - Services:
