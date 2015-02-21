@@ -82,17 +82,17 @@ meta_description: Hi. I'm Conroy. I'm a Ruby on Rails Web Developer.
 
       <div class="three column logo row">
         <div class="column">
-          <a href="https://www.github.com">
+          <a href="https://www.github.com/conroywhitney">
             <i class="huge inverted github icon"></i>
           </a>
         </div>
         <div class="column">
-          <a href="https://www.twitter.com">
+          <a href="https://www.twitter.com/conroywhitney">
             <i class="huge inverted twitter icon"></i>
           </a>
         </div>
         <div class="column">
-          <a href="https://www.linkedin.com">
+          <a href="https://www.linkedin.com/in/conroywhitney">
             <i class="huge inverted square linkedin icon"></i>
           </a>
         </div>
@@ -104,30 +104,17 @@ meta_description: Hi. I'm Conroy. I'm a Ruby on Rails Web Developer.
   <!-- /social media block -->
 
 
-  {% block 'contact' %}
+  {% block 'inspiration' %}
   <div class="ui vertical segment">
     <div class="ui stackable center aligned page grid">
 
-    {% include 'section_header_with_divider_icon' with icon: 'heart', text: "Let's do great things together" %}
+    {% include 'section_header_with_divider_icon' with icon: 'fire', text: "Things that inspire me" %}
 
-      <div class="row">
-        <div class="twelve wide column">
-          <form class="ui form" id="contact_form">
-            <div class="two fields">
-              <div class="field">
-                <input placeholder="Your Name" type="text" id="contact_name" name="contact_name">
-              </div>
-              <div class="field">
-                <input placeholder="Your Email" type="text" id="contact_email" name="contact_email">
-              </div>
-            </div>
-            <div class="field">
-              <textarea placeholder="Your Message" id="contact_message" name="contact_message"></textarea>
-            </div>
-            <div class="ui primary submit button">Send Message</div>
-          </div>
-        </div>
-      </div><!-- /form -->
+      <div class="sixteen wide column">
+        <div class="ui piled segment inspiration">
+          {% editable_text 'inspiration_text', rows: 10, format: 'html', hint: 'Block of text in inspiration portion of homepage' %}{% endeditable_text %}
+        </div><!-- /piled segment -->
+      </div><!--/column -->
 
     </div><!-- /grid -->
   </div><!-- /segment -->
