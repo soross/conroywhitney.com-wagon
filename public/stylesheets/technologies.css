@@ -1,0 +1,54 @@
+#technologies .card {
+  margin: 1em auto;
+}
+
+#technologies .card .header a {
+  font-size: 1.5em;
+}
+
+#technologies .card .description {
+  min-height: 45px;
+  padding-top: 10px;
+}
+
+#technologies .card img.avatar {
+  border-radius: 0em;
+}
+
+#technologies .statistics {
+  display: none;
+}
+
+#technologies .ui.statistics .statistic > .value, .ui.statistic > .value {
+  font-size: 1.5em;
+}
+
+#technologies .ui.statistics > .statistic,
+#technologies .ui.statistic + .ui.statistic {
+	margin: 0em 1em 0em;
+}
+
+
+
+
+/* Blog Posts */
+
+#technologies .piled.segment {
+  margin-bottom: 2em;
+}
+
+
+/* Experiences */
+
+#technologies .event {
+  margin-bottom: 5em;
+}
+
+#technologies .event > .label {
+  width: 7em;
+}
+
+#technologies .company {
+  font-size: 2em;
+}
+

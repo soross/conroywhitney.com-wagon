@@ -1,36 +1,157 @@
 ---
-- Oporteat petentium:
-    _slug: oporteat-petentium
-    subtitle: Illud denique eligendi
-    dates: Jul 1776 - Sep 1787
-    description: Lorem ipsum dolor sit amet, modus habemus honestatis at vim, eu denique
-      electram qui. Ne labore elaboraret mea, eam ad vero fierent definitionem. Modus
-      veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum
-      sonet eligendi, no pro dolorum minimum iudicabit. Ei dolore essent deseruisse
-      nam, ea eam elitr dicunt viderer. Pri no nihil doctus.
-    skills:
-    - lorem
-    - dolor
-- Voluptatum:
-    _slug: voluptatum
-    subtitle: Has et modus persecuti moderatius
-    dates: Jan 1970 - Dec 21, 2012
-    description: Elitr consul assueverit ex mea, modo wisi nam ne. Duo id justo dicta
-      equidem, suas expetendis philosophia at eos. Has vidit summo aperiam eu, feugiat
-      petentium eam ut. Ne graece graeci rationibus sed, te nibh ubique adolescens
-      nam, commune convenire in pro. Ei nec dicant fierent, ius dictas doctus ne,
-      ei case consequuntur qui. Eu mea viris accusam, sea movet phaedrum ne. Facer
-      iudico eos te, eu nec vidit eleifend efficiantur.
-    skills:
-    - lorem
-    - dolor
-- Conclusionemque:
-    _slug: conclusionemque
-    subtitle: Volutpat aliquando
-    dates: 1/2/3456 - 8/9/1011
-    description: Mundi denique detraxit nam ei, quo id facete inimicus, mei eu ullum
-      verterem eleifend. Ad aeterno accusata abhorreant sea, vix corpora fabellas
-      ea. Cum ludus propriae reformidans ut, ea mel mollis saperet disputationi. Est
-      tollit electram ad. Per oratio libris et, nam veri ocurreret no. Stet graece
-      malorum nam cu, no vocent debitis est, ne eam vidisse suavitate.
+- Georgia Institute of Technology:
+    _slug: georgia-tech
+    subtitle: B.S. Computer Science
+    dates: Aug 2004 - Jul 2008
+    description: <p>Along with base classes in <strong>math</strong>, <strong>logic</strong>,
+      <strong>architecture</strong>, <strong>data structures</strong>, and <strong>algorithms</strong>,
+      I focused&nbsp;on three "specialities" which I believe help prepare me as a
+      Web Developer:&nbsp;<strong>Software</strong> <strong>Engineering </strong>(Agile/XP
+      methodologies, project management, and testing), <strong>Database Technologies&nbsp;</strong>(underlying
+      principles and emerging technologies)&nbsp;and <strong>AI </strong>(both Artificial
+      Intelligence and Machine Learning).&nbsp;During my entire time at Georgia Tech,
+      I worked at <a href="http://www.careerbuilder.com/">CareerBuilder.com</a> as
+      a <a href="http://www.coop.gatech.edu/">co-operative student employee</a>.</p>
+    logo: /samples/experiences/georgia-tech/georgia-tech-logo.gif
+    url: http://www.gatech.edu/
+    skills: []
+- CareerBuilder.com:
+    _slug: careerbuilder-dot-com
+    subtitle: Software Engineer
+    dates: May 2005 - July 2010
+    description: "<p><strong>Software Engineer II / III</strong></p>\r\n<ul>\r\n<li>Deploying
+      changes on 24/7 n-tier platform used by 16M unique visitors per month</li>\r\n<li>Heavy
+      utilization of A/B testing to determine business impact of changes</li>\r\n<li>Skunkworks
+      projects for data normalization / analysis for \"Did you mean?\" and&nbsp;\"People
+      who liked this also liked this\" features</li>\r\n<li>Worked with international
+      / remote team building international clones of flagship site</li>\r\n</ul>\r\n<p><strong>API
+      Lead Developer (<a href=\"http://developer.careerbuilder.com/\">http://developer.careerbuilder.com/</a>)</strong></p>\r\n<ul>\r\n<li>Worked
+      with internal and external customers who were using the API</li>\r\n<li>Maintain,
+      improve, and extend API based on usage and feature requests</li>\r\n<li>Analyzed
+      and monitored API usage statistics to prevent fraud / abuse</li>\r\n<li>Provided
+      technical advice for partnership negotiations involving the CareerBuilder.com
+      API</li>\r\n</ul>\r\n<p><strong>CBSalary.com / CareerPath.com</strong></p>\r\n<ul>\r\n<li>Migrated
+      outsourced platform onto main CareerBuilder platform</li>\r\n<li>Worked and
+      communicated directly with business stakeholders</li>\r\n<li>Created project
+      timeline and strategy in lean/iterative fashion</li>\r\n<li>Transitioned between
+      platforms on time and without interruption</li>\r\n</ul>"
+    logo: /samples/experiences/careerbuilder-dot-com/careerbuilder-logo.png
+    url: http://www.careerbuilder.com/
+    skills: []
+- Quirky:
+    _slug: quirky
+    subtitle: Web Developer
+    dates: July 2011 – December 2012
+    description: "<p><strong>Performance &amp; Scaling</strong></p>\r\n<ul>\r\n<li>Heavily
+      utilize of New Relic transaction traces</li>\r\n<li>Optimize critical DB queries
+      through indices and denormalization</li>\r\n<li>Reduce response variablity so
+      dynos don't timeout and requests aren't backlogged</li>\r\n<li>Queue long-running
+      processes to async pool with front-end polling for completion</li>\r\n<li>Create
+      scheduled rake tasks to precompute / calculate intensive information</li>\r\n<li>Cache
+      semi-static content on heavy traffic pages to reduce server load</li>\r\n<li>CDNize
+      images, javascript, and styleshets with cache-busting hashes</li>\r\n<li>Use
+      NoSQL in proper contexts for specialized functions</li>\r\n<ul>\r\n<li>Redis
+      for set operations (voting, friends, following)</li>\r\n<li>MongoDB for schemaless
+      document store / related attributes</li>\r\n</ul>\r\n<li>SQL transactions, state
+      machines, and record-level auditing to ensure business logic and data integrity</li>\r\n</ul>\r\n<p><strong>Website
+      Features</strong></p>\r\n<ul>\r\n<li>Participated in webpage redesign projects
+      (homepage, ideation list page, shop, blog, and more)</li>\r\n<li>Rearchitected
+      transactional email framework with ActionMailer templates and AWS SES</li>\r\n<li>Automated
+      tools generating personalized \"Your Week at Quirky\" emails sent to 300k+ users
+      once a week</li>\r\n<li>Created internal admin tools for viewing ideas, product
+      orders, and presenting weekly Eval</li>\r\n</ul>\r\n<p><strong>Skunkworks</strong></p>\r\n<ul>\r\n<li>Pricing
+      Game utilizing <a href=\"http://en.wikipedia.org/wiki/Van_Westendorp%27s_Price_Sensitivity_Meter\">Price
+      Sensitivty Meter</a> to determine proper market price for new products</li>\r\n<li><a
+      href=\"https://www.quirky.com/live\">Quirky Live</a> webpage using Pusher and
+      Sinatra for real-time chat and live polling during weekly Quirky Evals</li>\r\n<li>Twilio-based
+      call queue for community members to participate in Eval conversation</li>\r\n<li>\"Problem
+      Pool\" collaborative approach to surfacing valuable idea submissions</li>\r\n</ul>"
+    logo: /samples/experiences/quirky/quirky-logo.png
+    url: https://www.quirky.com/
+    skills: []
+- Salesforce $1M Hackathon:
+    _slug: salesforce-$1m-hackathon
+    subtitle: Heroku+Force.com and Open Source Ruby Prizes
+    dates: October 2014
+    description: "<p>Awarded two prizes at the <a href=\"https://developer.salesforce.com/million-dollar-hackathon\">Salesforce
+      $1million Hackathon 2014</a> in San Francisco, a 48 hour hackathon leveraging
+      the Salesforce platform, in which all code was written during the allowed start/end
+      times.</p>\r\n<ul>\r\n<li><strong>12th place in Heroku + Force.com category</strong>
+      for&nbsp;<a href=\"http://challengepost.com/software/copilot-commercial-real-estate-management-system\">CoPilot
+      Commercial Real Estate Management System</a>,&nbsp;a web application that manages
+      properties, task assignments, and comments through Salesforce Custom Objects,
+      Workflow, and Chatter APIs through use and extension of the <a href=\"https://github.com/ejholmes/restforce\">Restforce
+      gem</a>.</li>\r\n<li><strong>Open Source Ruby Prize</strong> for <a href=\"https://github.com/conroywhitney/restforce-sobject\">restforce-sobject</a>&nbsp;which
+      utilizes ruby metaprogramming to create a decorator pattern around Restforce
+      objects in order to</li>\r\n<ul>\r\n<li>Provide a ActiveRecord-esque interface
+      to query / save through Salesforce API</li>\r\n<li>Interact with Salesforce
+      objects in a more ruby-like way and standardize Custom Object interface and
+      attributes</li>\r\n<li>Encapsulate Chatter / Task API logic to provide consistent
+      interface for developer</li>\r\n</ul>\r\n</ul>"
+    logo: /samples/experiences/salesforce-$1m-hackathon/salesforce-logo.png
+    url: https://developer.salesforce.com/million-dollar-hackathon
+    skills: []
+- Whitney Commercial Real Estate:
+    _slug: whitney-commercial-real-estate
+    subtitle: Marketing / Technology
+    dates: Jan 2014 - Present
+    description: "<p><strong>WhitneyCRE Website</strong></p>\r\n<ul>\r\n<li>Recreated
+      old static website on LocomotiveCMS platform with Bootstrap responsive theme</li>\r\n<li>Overnight
+      cron / rake processes to process all local real estate listings from 3rd party
+      IDX</li>\r\n<li>Interactive <a href=\"http://www.whitneycre.com/search\">property
+      map search</a> using AngularJS / Algolia</li>\r\n</ul>\r\n<p><strong>Chrome
+      Browser Extension</strong></p>\r\n<ul>\r\n<li>Extends real estate backoffice
+      tool&nbsp;<a href=\"https://www.reesio.com\">Reesio</a> to add commercial real
+      estate fields</li>\r\n<li>Manipulates DOM to customize fields / graphs and insert
+      into regular Reesio webpage</li>\r\n<li>Stores data on own servers for analysis
+      / ownership separate from Reesio</li>\r\n</ul>\r\n<p><strong>Transaction Manager</strong></p>\r\n<ul>\r\n<li>Use
+      Adobe Indesign to create print materials (brochures, reports, etc.)</li>\r\n<li>Responsible
+      for state of current listings as they move through company pipeline</li>\r\n<li>Created
+      JSON tool to generate bi-weekly sales meeting slides, email blasts, and monthly
+      \"recent activity\" PDF booklets&nbsp;</li>\r\n</ul>"
+    logo: /samples/experiences/whitney-commercial-real-estate/whitney-commercial-logo.png
+    url: http://www.whitneycre.com/
+    skills: []
+- Integritive:
+    _slug: integritive
+    subtitle: Ruby on Rails Contractor
+    dates: July - Nov 2014
+    description: "<ul>\r\n<li>Transition from&nbsp;EngineYard to Heroku + AddOns</li>\r\n<li>Use
+      New Relic to monitor and tweak transition performance</li>\r\n<li>Optimized
+      Resque document processing to improve site responsiveness</li>\r\n<li>Updated
+      and extended test suites to improve coverage</li>\r\n<li>Implemented additional
+      client functionality requests</li>\r\n</ul>"
+    logo: /samples/experiences/integritive/integritive-logo.png
+    url: http://www.integritive.com/
+    skills: []
+- Attaché:
+    _slug: attache
+    subtitle: This Website. The one you are looking at right now.
+    dates: '2015'
+    description: "<p><strong><a href=\"https://github.com/conroywhitney/attache\">Attach&eacute;</a>:&nbsp;a&nbsp;portfolio
+      theme using SemanticUI elements and LocomotiveCMS content types</strong></p>\r\n<ul>\r\n<li>Spreading
+      the word about <a href=\"http://locomotivecms.com/\">LocomotiveCMS</a>&nbsp;and&nbsp;<a
+      href=\"http://semantic-ui.com/\">SemanticUI</a>,&nbsp;two of my favourite new
+      frameworks</li>\r\n<li>Created new LocomotiveCMS <a href=\"https://github.com/conroywhitney/locomotivecms-semanticui-template\">template
+      generator</a> using SemanticUI template</li>\r\n<li>Clone-and-go <a href=\"https://github.com/conroywhitney/attache\">Attach&eacute;
+      project</a> allows developers to jump right and get both feet wet with LocomotiveCMS
+      and SemanticUI</li>\r\n</ul>"
+    logo: /samples/experiences/attache/attache-logo.png
+    url: https://github.com/conroywhitney/attache
+    skills: []
+- Gringotts:
+    _slug: gringotts
+    subtitle: 2-Factor Authentication gem. Protego!
+    dates: '2013'
+    description: "<p><strong><a href=\"https://github.com/conroywhitney/gringotts\">Gringotts</a>:
+      </strong>a plug-and-play 2FA Rails engine.&nbsp;<span>It sends a&nbsp;</span><a
+      href=\"http://en.wikipedia.org/wiki/One-time_password\">one-time password</a><span>&nbsp;to
+      a user over SMS which is used to verify that the user is are who they say they
+      are.</span></p>\r\n<ul>\r\n<li><strong>Test-driven development</strong> (TDD)
+      and <strong>continuous integration</strong> (CI)</li>\r\n<li>Compatibility testing
+      across multiple versions of both ruby and rails</li>\r\n<li>Integrates with
+      Twilio account to send SMS to user upon login from unknown device</li>\r\n<li>Promotes
+      decentralized security and privacy in an era of data breaches and surveilance</li>\r\n</ul>"
+    logo: /samples/experiences/gringotts/gringotts-logo.png
+    url: https://github.com/conroywhitney/gringotts
     skills: []

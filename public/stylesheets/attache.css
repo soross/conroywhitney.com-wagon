@@ -4,6 +4,7 @@
 
 
 
+
 html {
   font-size: 14px;
 }
@@ -70,7 +71,6 @@ html {
 }
 
 .attache .logo.row {
-  height: 10rem;
 }
 
 .attache .ui.divider > .icon {
@@ -110,7 +110,10 @@ html {
     font-size: 1.5em;
   }
   .attache .masthead.segment .information {
-    margin-left: 170px;
+  }
+
+  #blog .post {
+    padding: 0em;
   }
 
   .attache .masthead.segment .image {

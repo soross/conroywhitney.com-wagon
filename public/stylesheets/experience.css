@@ -6,6 +6,10 @@
   width: 7em;
 }
 
+#experience .event > .label img {
+  border-radius: 0em;
+}
+
 #experience .company {
   font-size: 2em;
 }

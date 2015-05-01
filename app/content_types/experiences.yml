@@ -11,7 +11,7 @@ fields:
     type: string
     hint: Name of employer, school, etc.
     required: true
-    unique: true
+    unique: false
     localized: false
 - subtitle:
     label: Subtitle
@@ -39,6 +39,13 @@ fields:
     label: Logo
     type: file
     hint: Logo of company, university, etc.
+    required: false
+    unique: false
+    localized: false
+- url:
+    label: URL
+    type: string
+    hint: Link to company, university, etc.
     required: false
     unique: false
     localized: false

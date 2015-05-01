@@ -1,85 +1,423 @@
 ---
-- Ex oportere ullamcorper mel:
-    _slug: ex-oportere-ullamcorper-mel
+- SQL != Memcache != Mongo != Redis:
+    _slug: sql-memcache-mongo-redis
     byline: Conroy Whitney
-    description: Lorem ipsum dolor sit amet, modus habemus honestatis at vim, eu denique
-      electram qui. Ne labore elaboraret mea, eam ad vero fierent definitionem. Modus
-      veniam commune qui te, modo labore duo no, graece cetero nec te. An usu ullum
-      sonet eligendi, no pro dolorum minimum iudicabit. Ei dolore essent deseruisse
-      nam, ea eam elitr dicunt viderer. Pri no nihil doctus.
-    content: Dicunt consequuntur interpretaris nam id, vim an pericula pertinacia,
-      vis prompta suscipit intellegam no. Oporteat petentium eu nam, has natum augue
-      aeque eu. Eam commune mentitum ut, soluta complectitur cu pri, est alii periculis
-      reprimique ne. Dolorum vocibus sit te, eos causae nominati ea. Eum ex paulo
-      dissentias, et vix cetero ceteros, est placerat lobortis deterruisset et. Deserunt
-      percipitur vim et, nulla fuisset vix ad.
-    published_on: 02/19/2015
+    description: I love me some noSQL. However, there is a time and a place for each
+      technology. I put this presentation together for Asheville Coder's League in
+      2014. There slides are below, followed by a recording of my presentation. (sorry
+      for the potato quality)
+    content: "<p>I love me some noSQL. However, there is a time and a place for each
+      technology. I put this presentation together for <a href=\"http://www.meetup.com/Asheville-Coders-League/\">Asheville
+      Coder's League</a> in 2014. There slides are below, followed by a recording
+      of my presentation. (<a href=\"http://knowyourmeme.com/memes/recorded-with-a-potato\">sorry
+      for the potato quality</a>)</p>\r\n<h2>Prezi Presentation</h2>\r\n<p><iframe
+      width=\"550\" height=\"400\" frameborder=\"0\" allowfullscreen=\"\" src=\"http://prezi.com/embed/wkwsffkxmnsp/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0#\"></iframe></p>\r\n<h2>YouTube
+      Video</h2>\r\n<p><iframe width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"
+      src=\"https://www.youtube.com/embed/o0HB80YBAhE\"></iframe></p>"
+    published_on: 08/20/2014
+    image: /samples/blog_posts/sql-memcache-mongo-redis/is_not_1.png
     skills: []
-- Ei augue movet rationibus sea, eu corrumpit definitiones sea:
-    _slug: ei-augue-movet-rationibus-sea-eu-corrumpit-definitiones-sea
+- The Struggle Against Entropy:
+    _slug: the-struggle-against-entropy
     byline: Conroy Whitney
-    description: Te est harum omnes, admodum disputando repudiandae ex eam, in cum
-      petentium instructior. Eum quas corpora in, omnesque tincidunt id per. Ne pro
-      nostrud philosophia, in virtute diceret mnesarchum quo. An mutat cetero signiferumque
-      sit.
-    content: <p>Wisi consetetur id nam, eum alii fierent ex. Cum quaestio praesent
-      deterruisset te, te qui eius cetero consequat. Quo an nisl prima molestie, cu
-      quas harum eum. Alienum propriae theophrastus an duo. Latine persius quo no.
-      Has dico numquam voluptatibus eu, nec delenit nusquam te, est elit mediocrem
-      at. Eos cu aeterno persius, ad cum decore putent facilisis.</p><p>His quaeque
-      placerat sententiae eu, vim brute possit intellegebat te, mel ei causae eirmod
-      quaerendum. Ne eum tacimates iudicabit, ex nec dicit mentitum. Eu duo stet quaeque.
-      Clita nostro evertitur at duo, ne sed salutandi accusamus, his id inani sonet.
-      Recusabo referrentur ea pro, debet omnes iuvaret has et.</p><p>Id malis nostrud
-      ius, et per ludus nonumes fabellas, vivendum eleifend cu est. Duo ne cibo postulant
-      patrioque, ex pri vero altera. Pri ea dicam saperet pertinacia, graeco scaevola
-      laboramus mel ut, quo te facilis placerat sadipscing. Duo an semper vituperata.
-      Id mei omnes solet facilis, alii eruditi abhorreant ea pri.</p>
-    published_on: 01/01/1970
-    skills:
-    - lorem
-    - dolor
-- Minim dolor possit at mel, partem dolores mel et, an est posse qualisque:
-    _slug: minim-dolor-possit-at-mel-partem-dolores-mel-et-an-est-posse-qualisque
+    description: We all know that entropy is going to win, eventually. That's considered
+      a given in physics. And empirically we can say that's true in our own lives.
+      Our laundry goes from clean to needing to be cleaned; our meals go from cooked
+      to eaten; our bodies go from born to dead. Even when we make efforts every day
+      to slow or reverse these processes, eventually, inevitably, entropy will win.
+    content: "<p>I often think about whatever job I'm doing as a \"struggle against
+      entropy\".&nbsp;<a title=\"Muse - 2nd Law - Unsustainable\" href=\"https://www.youtube.com/watch?v=EF_xdvn52As\">Entropy,
+      as Muse explains it:</a></p>\r\n<blockquote>All natural and technological processes
+      proceed in such a way that the availability of the remaining energy decreases.
+      In all energy exchanges, if no energy enters or leaves an isolated system the
+      entropy of that system increases. Energy continuously flows from being concentrated
+      to becoming dispersed spread out, wasted and useless. New energy cannot be created
+      and high-grade energy is being destroyed. An economy based on endless growth
+      is unsustainable.</blockquote>\r\n<p>We all know that entropy is going to win,
+      eventually. That's considered a given in physics. And empirically we can say
+      that's true in our own lives. Our laundry goes from clean to needing to be cleaned;
+      our meals go from cooked to eaten; our bodies go from born to dead. Even when
+      we make efforts every day to slow or reverse these processes, eventually, inevitably,
+      entropy will win.</p>\r\n<p>Some jobs, the amount accomplished vs. the effort
+      put in forms a sort of logarithmic graph. For example, working as a bartender:
+      at the end of the day, after all your customers have been served, your bar is
+      clean, your glasses are clean, your trash is taken out, you have re-stocked,
+      and you are ready for the next shift. If you don't do everything well, you'll
+      be behind the next day, and things will be harder going; the lack of effort
+      compounds to form a morass of difficulty. However, there is no getting ahead;
+      even if you clear every ashtray and wipe every counter as soon as they are dirtied;
+      even if you restock every cold beer as soon as it is served; you still can only
+      reach a certain output. You still, at the end of the day, will end up with clean
+      floors, clean glasses, and a fresh start for a new shift. Any optimizations
+      on top of that (a better inventory or POS system, batching work when mixing
+      drinks, etc.) only gains a small amount of additional output. Hence the logarithmic
+      graph. Eventually you come to the limit of how much you can optimize that type
+      of job.</p>\r\n<p>Other jobs, however, form an exponential graph in terms of
+      amount accomplished vs. inputted effort. Technology plays a key role in these
+      situations. Any time when you can replace work that a human normally needs to
+      do with a (semi-)automated system, you are increasing your output relative to
+      input. And if your job is to create said technology, then your input outputs
+      an output that in return multiplies future inputs: exponential. It's acceleration:
+      applying the same amount of force equally over time results in a compounded
+      velocity. It's a form of bootstrapping: companies (specifically startups), building
+      ideas and systems around existing ideas and systems until they can impact 10,
+      then 100, then 1,000, then 100,000, then 1,000,000 users; not with 1,000,000
+      times the effort, as it would be if you were trying to run a bar with 1,000,000
+      customers; but instead with (roughly) the same (probably less than a factor
+      or two of 10) amount of man-hours.</p>\r\n<p>And that's our ultimate weapon
+      in the struggle against entropy: our time. Some things require linear relations
+      for our efforts: sleeping, exercise, hobbies, volunteering, time with family,
+      watching TV. But for me, work -- where I spend at least 1/3 of my day -- is
+      an area where I constantly look for areas to improve my multiplier. If there
+      is a task that I am frequently needing to perform that seems like a good candidate
+      for automation, I&nbsp;<em>need</em>&nbsp;to automate it. Why? Because if I
+      don't, I feel like I'm stuck in a hamster wheel running in the same circle over
+      and over. I don't want to solve the same problems every day, day in, day out.
+      I want to solve new problems; interesting problems; problems that make tomorrow
+      better than today. Because these types of problems mean that in the struggle
+      against entropy, I'm not just entrenched, holding the line, content to not be
+      losing ground; no, I'm winning battles, advancing forward, and marching towards
+      a goal that grows ever-nearer. And in this struggle against entropy, technology
+      is my rearguard, allowing a retreat to a safety zone of automated processes
+      and analyzable numbers so that even when I lose a battle, all is not lost. We
+      can pick up our wills and fight the struggle against entropy for yet another
+      day.</p>"
+    published_on: 03/05/2014
+    image: /samples/blog_posts/the-struggle-against-entropy/entropy.jpeg
+    skills: []
+- Motivations:
+    _slug: motivations
     byline: Conroy Whitney
-    description: Minim dolor possit at mel, partem dolores mel et, an est posse qualisque.
-      Ne ignota singulis torquatos mel, duo praesent deterruisset interpretaris ei,
-      ex omittam recusabo sea. Ut vis integre gubergren cotidieque, elitr saepe diceret
-      nam no. Pro unum assueverit interesset no. Quo vide accusamus ut.
-    content: <p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo
-      deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit
-      scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel
-      ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro
-      eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata,
-      cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant
-      nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum
-      patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae.
-      Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad
-      iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri
-      definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu
-      antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
-      at vel, dico corpora mel et.</p>
-    published_on: 02/22/2222
-    skills:
-    - lorem
-    - ipsum
-    - dolor
-- Id malis nostrud ius:
-    _slug: id-malis-nostrud-ius
+    description: 'Take a moment and reflect on why it is that you do what you do.
+      Have some meta-thoughts: thinking about why it is that you are thinking what
+      you’re thinking. The only way to change the future is to notice the present
+      decide to act.'
+    content: "<p>All day long, our brains are chugging away, one thought after another.
+      Do I press snooze or go for a run? Oatmeal or smoothie? Black shirt or blue
+      shirt? Time to go to work. Work, work, work. OK, work&rsquo;s done. Do I go
+      for a run? What&rsquo;s for dinner? Go to bed or open one more reddit link?</p>\r\n<p>When
+      we work, is it because of what we want to give to the job? Or because of what
+      we want the job to give us? In the first situation, we are motivated by the
+      work itself; we have clear goals and reasons for participation and, if they
+      are no longer being met, we are free to switch our focus to something else on
+      which we want to spend our time. In the latter situation, we are motivated by
+      the effects of the job, such as money or career advancement; the job is not
+      inherently special to us; it&rsquo;s simply a means to an end.</p>\r\n<p>Take
+      a moment and reflect on why it is that you do what you do. Have some meta-thoughts:
+      thinking about why it is that you are thinking what you&rsquo;re thinking. The
+      only way to change the future is to notice the present decide to act.</p>"
+    published_on: 01/08/2014
+    image: /samples/blog_posts/motivations/make-a-difference.jpg
+    skills: []
+- Appraising Your Gem:
+    _slug: appraising-your-gem
     byline: Conroy Whitney
-    description: Vivendum eleifend cu est
-    content: <p>Per assentior definitiones ne, falli vitae ut vel, timeam vivendo
-      deleniti in vim. Qui et alienum dissentiet philosophia, cum at ridens delenit
-      scriptorem, per ea percipit interesset dissentiunt. Eros nullam inermis vel
-      ea, purto pericula voluptaria has ea, an aeque tollit exerci pri. Pri ea nostro
-      eirmod.</p><p>Omnes virtute vix ei, soleat volumus in eum. Id duo ponderum vituperata,
-      cu delicata dissentias sed. Ut mei maiorum epicuri, graece oporteat postulant
-      nec id, eum eu odio consequat. Ornatus definitiones vix te. Est percipit vivendum
-      patrioque eu, ex eum consul possit semper.</p><p>Eam an quodsi periculis repudiandae.
-      Pro legendos molestiae intellegebat eu, case reprimique scripserit mea ei. Ad
-      iusto vocent utamur vis, duo ad scribentur intellegebat. Ad vim saperet epicuri
-      definitionem, et eruditi vivendum conceptam nec, eam quando partem ex. Mel eu
-      antiopam conclusionemque, partem aeterno atomorum nam cu. Maluisset theophrastus
-      at vel, dico corpora mel et.</p>
-    published_on: 12/31/2345
+    description: Thoughtbot has done it again with appraisal, a neat and nifty gem
+      for testing your gem in different ruby and rails environments. It's especially
+      useful when combined with Travis to specify which continuous integration environments
+      should be used or ignored..
+    content: "<p>One might argue that the more versions of ruby and rails your gem
+      supports, the more valuable it is to the general population. Well, I guess it&nbsp;<em>does</em>&nbsp;also
+      depend on what your gem does (<a href=\"https://github.com/busyloop/lolcat\">rainbows
+      and unicorns?</a>).</p>\r\n<p>Thoughtbot has done it again with&nbsp;<a href=\"https://github.com/thoughtbot/appraisal\">appraisal</a>,
+      a neat and nifty gem for testing your gem in different ruby and rails environments.
+      It's especially useful when combined with Travis to specify which continuous
+      integration environments should be used or ignored. (see&nbsp;<a href=\"https://github.com/conroywhitney/gringotts/blob/master/.travis.yml\">gringott's
+      travis.yml</a>&nbsp;for an example).</p>\r\n<p><strong>Note:</strong>&nbsp;<a
+      href=\"https://github.com/thoughtbot/appraisal/blob/master/README.md\">appraisal's
+      README</a>&nbsp;on github is curently for for the 1.0.0.beta2 version. This
+      can be confusing since the current rubygems version (and what you get if you
+      just do&nbsp;<code>gem \"appraisal\"</code>&nbsp;is 0.5.2. You can either use
+      the beta version with&nbsp;<code>gem \"appraisal\", \"1.0.0.beta2\"</code>,
+      or, you can use&nbsp;<a href=\"https://github.com/thoughtbot/appraisal/blob/v0.5.2/README.md\">the
+      0.5.2 version of the README</a></p>\r\n<p>As mentioned in the README, you can
+      run your spec and cucumber tests against these ruby/rails versions using appraisal.
+      What's&nbsp;<em>not</em>&nbsp;mentioned, though, is that you can also run your
+      local webserver against your different appraisals as well.</p>\r\n<p>Since appraisal
+      essentially just pre-compiles the bundles that you are going to use for your
+      different appraisals (e.g., rails-3.2, rails-4.0), you can use that to your
+      advantage:</p>\r\n<p>First, find out the path to the bundle that you want to
+      test locally:</p>\r\n<pre><code> rake appraisal:install\r\n</code></pre>\r\n<p>Look
+      for the line that like:</p>\r\n<pre><code> bundle check --gemfile='/pathbot/to/rails/engine/gemfiles/rails_4.0.gemfile'\r\n</code></pre>\r\n<p>We
+      are going to hand that path to our webserver so it knows what bundle to use.
+      However, instead of using the --gemfile option, we are going to pass it as an
+      inline environment variable:</p>\r\n<pre><code> BUNDLE_GEMFILE='/path/to/rails/app/gemfiles/rails_3.2.gemfile'
+      bundle exec rails server\r\n</code></pre>\r\n<p>Or, if you are developing an
+      engine, you can run your dummy app's rails server using</p>\r\n<pre><code> BUNDLE_GEMFILE='/path/to/rails/engine/gemfiles/rails_3.2.gemfile'
+      bundle exec spec/dummy/bin/rails server\r\n</code></pre>\r\n<p><strong>Note:</strong>&nbsp;spec/dummy
+      is the location of your engine's dummy app. This might instead be in test/dummy,
+      depending on how you set your engine up.</p>\r\n<p>Running a local webserver
+      against different ruby/rails appraisals is useful for being able to manually
+      play around with why a particular test might not be working in a particular
+      bundle (e.g.,only on ruby-1.9.3@rails-3.2).</p>\r\n<p>One last thing, maybe
+      this was just something quirky on my end, but I ended up having issues when
+      running my rake tests against my rails-3.* appraisals. I kept encountering this
+      error:</p>\r\n<pre><code> undefined method `migration_error=' for ActiveRecord::Base:Class\r\n</code></pre>\r\n<p>Unable
+      to find a solution, I am embarassed to say that I instead took the lazy (and
+      very time-consuming) way out of repeatedly pushing to github after every commit
+      so that Travis would run my rails-3.* tests for me so I could debug where my
+      issue might be occurring. That wasted not only a lot of my time (5 minutes between
+      fix and result), but also a lot of Travis' server hours... Sorry guys! Let me
+      know how I can&nbsp;<a href=\"https://love.travis-ci.org/\">show you some love</a>.</p>\r\n<p>Anyway,
+      the hidden clue to the solution to the&nbsp;<code>undefined method</code>&nbsp;issue
+      was hidden in one of the comments on one of the unaccepted answers of&nbsp;<a
+      href=\"http://stackoverflow.com/questions/18000712/rake-aborted-undefined-method-migration-error-for-activerecordbaseclass\">one
+      of the StackOverflow questions</a>. As Iliya Stepanov points out,</p>\r\n<blockquote>\r\n<p>It
+      was one string in config/initializers or environment. I don't remember exactly
+      what string it was, but check carefully that files if you rolling back from
+      Rails 4 to 3 and facing similar problems.</p>\r\n</blockquote>\r\n<p>It turns
+      out that in&nbsp;<code>spec/dummy/config/environments/development.rb</code>&nbsp;there
+      is this line:</p>\r\n<pre><code> config.active_record.migration_error = :page_load\r\n</code></pre>\r\n<p>I
+      commented that out, and everything worked hunky dorey. It doesn't make me happy
+      to think that I am suppressing potentially useful errors, but there were no
+      migrations that needed to be migrated. Also, I'm pretty sure that might have
+      only been related to the fact that I created a rails4 engine, then was trying
+      to backport its dummy to rails3. Pretty sure.</p>\r\n<p><a href=\"http://www.youtube.com/watch?v=qKVVDAKi_d4\">And
+      that's the end of that that chapter.</a></p>"
+    published_on: 11/19/2013
+    image: /samples/blog_posts/appraising-your-gem/prospector.jpg
+    skills: []
+- Keeping a Secret:
+    _slug: keeping-a-secret
+    byline: Conroy Whitney
+    description: 'Rails 4 introduces a new way of signing cookies that differs from
+      the previous method in Rails 3. When you upgrade to Rails 4, you are likely
+      to receive "DEPRECATION WARNING: You didn''t set config.secret_key_base". As
+      pointed out in the guide for upgrading rails, you can simply run "rake secret"
+      to generate a new secret, and paste that into config.secret_key_base inconfig/initializers/secret_token.rb.
+      However, do we really want this crucial security key to be hard-coded in our
+      application and pushed to our repository? What if our repository is public?'
+    content: "<p>Rails 4 introduces a new way of signing cookies that differs from
+      the previous method in Rails 3. When you upgrade to Rails 4, you are likely
+      to receive a warning:</p>\r\n<p><code>DEPRECATION WARNING: You didn't set config.secret_key_base.</code></p>\r\n<p>As
+      pointed out in&nbsp;<a href=\"http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#action-pack\">the
+      guide for upgrading rails</a>, you can simply run</p>\r\n<p><code>rake secret</code></p>\r\n<p>to
+      generate a new secret, and paste that into&nbsp;<code>config.secret_key_base</code>&nbsp;in<code>config/initializers/secret_token.rb</code>.</p>\r\n<p>However,
+      do we really want this crucial security key to be hard-coded in our application
+      and pushed to our repository? What if our repository is public, like in the
+      case of an open-source app like the&nbsp;<a href=\"https://github.com/conroywhitney/gringotts-client\">gringotts
+      demo</a>?</p>\r\n<p>Well, my friends, we can simply use an ENV variable to store
+      the secret. In&nbsp;<code>config/initializers/secret_token.rb</code>, put this
+      line:</p>\r\n<p><code>*YourRailsApp*::Application.config.secret_key_base = ENV[\"SECRET_KEY_BASE\"]</code></p>\r\n<p>Now,
+      we can check in&nbsp;<code>config/initializers/secret_token.rb</code>&nbsp;without
+      worrying about anyone ever seeing the secret key that our application uses to
+      encrypt cookies. But now we need to make sure that&nbsp;<code>ENV[\"SECRET_KEY_BASE\"]</code>&nbsp;will
+      actually be set, both locally and for Heroku.</p>\r\n<p><strong>Locally,</strong>&nbsp;we
+      can use the nifty&nbsp;<a href=\"https://github.com/laserlemon/figaro\">figaro
+      gem</a>&nbsp;to set ENV variables quickly and easily. Following the instructions
+      on the figaro github page, we add&nbsp;<code>gem \"figaro\"</code>&nbsp;to our&nbsp;<code>Gemfile</code>,
+      run&nbsp;<code>rake figaro:install</code>, then edit our&nbsp;<code>config/application.yml</code>&nbsp;to
+      add the line:</p>\r\n<p><code>SECRET_KEY_BASE: (really long string output of
+      rake secret)</code></p>\r\n<p><strong>For Heroku,</strong>&nbsp;we&nbsp;<em>could</em>&nbsp;use
+      figaro&rsquo;s helper rake task for updating Heroku&rsquo;s config vars (<code>rake
+      figaro:heroku</code>). However, what if we accidentally check in our&nbsp;<code>config/application.yml</code>&nbsp;file?
+      We&rsquo;d be sharing the secret key used to encrypt our cookies on our production
+      server.&nbsp;<a href=\"http://www.homestarrunner.com/tgs3.html\">Noooo good!</a></p>\r\n<p>Preferably,
+      we can generate a separate secret key for Heroku</p>\r\n<p><code>heroku config:set
+      SECRET_KEY_BASE=$(rake secret)</code></p>\r\n<p>Just realize that when you change
+      your secret key base, all previous versions of your cookies will no longer be
+      valid.</p>\r\n<p>And that&rsquo;s that. We are now Rails 4 compliant (no more
+      DEPRECATION warning),&nbsp;<strong>and</strong>&nbsp;we have the added bonus
+      of keeping our secret a secret.</p>\r\n<p>Additional Resources:</p>\r\n<ul>\r\n<li><a
+      href=\"http://blog.envylabs.com/post/41711428227/rails-4-security-for-session-cookies\">http://blog.envylabs.com/post/41711428227/rails-4-security-for-session-cookies</a></li>\r\n<li><a
+      href=\"http://stackoverflow.com/questions/18556955/heroku-config-secret-key-base-error\">http://stackoverflow.com/questions/18556955/heroku-config-secret-key-base-error</a></li>\r\n<li>&lt;a
+      href=\"http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#action-pack&gt;http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#action-pack</li>\r\n<li><a
+      href=\"http://dev.mensfeld.pl/2013/06/upgrading-to-rails-4-0-from-rails-3-2-test-case-part-i-preparations-configuration-gems/\">http://dev.mensfeld.pl/2013/06/upgrading-to-rails-4-0-from-rails-3-2-test-case-part-i-preparations-configuration-gems/</a></li>\r\n<li><a
+      href=\"https://github.com/laserlemon/figaro\">https://github.com/laserlemon/figaro</a></li>\r\n</ul>"
+    published_on: 11/08/2013
+    image: /samples/blog_posts/keeping-a-secret/top-secret.png
+    skills: []
+- Good Enough Never Is:
+    _slug: good-enough-never-is
+    byline: Conroy Whitney
+    description: I really enjoy reading Cindy Alvarez and I highly recommend that
+      any product managers read and internalize her advice. If we all did, the world
+      would be a much easier place with which to interact. Recently, I appreciated
+      her post titled Good Enough vs. Good Enough Never Is about how the phrase "good
+      enough" is *not* an end, but rather a means to an improved product.
+    content: "<p>I really enjoy reading&nbsp;<a title=\"Cindy Alvarez\" href=\"http://www.cindyalvarez.com/\">Cindy
+      Alvarez</a>&nbsp;and I highly recommend that any product managers read and internalize
+      her advice. If we all did, the world would be a much easier place with which
+      to interact. Recently, I appreciated her post titled&nbsp;<a href=\"http://www.cindyalvarez.com/design/good-enough-vs-good-enough-never-is/\">Good
+      Enough vs. Good Enough Never Is</a>&nbsp;about how the phrase \"good enough\"
+      is&nbsp;<strong>*not*</strong>&nbsp;an end, but rather a means to an improved
+      product.</p>\r\n<p>To rephrase: \"Good enough\" is not an acquiescence to mediocrity;
+      but rather an admission of ignorance and a dedication to learning.</p>\r\n<p>Cindy
+      makes a great distinction that is a twist on the old adage &ldquo;You are not
+      your customer.&rdquo; Her distinction helps you decide when your product is
+      &ldquo;good enough&rdquo; to release:</p>\r\n<ul>\r\n<li>There are things in
+      my recently released product&nbsp;<strong>which make me cringe.</strong></li>\r\n<li>There
+      are things in my recently released product&nbsp;<strong>which make our customers
+      cringe.</strong></li>\r\n</ul>\r\n<p>It is a conscious effort for me to detach
+      myself from something that&nbsp;<em>I</em>&nbsp;do not consider to be ready
+      for release and to say &ldquo;This is&nbsp;<em>good enough</em>.&rdquo; However,
+      Cindy&rsquo;s distinction helps make that decision easier: at the current stage,
+      does the product provide value to the customer without making them cringe? Nevermind
+      what&nbsp;<em>I</em>&nbsp;think; I am not my customer. There is always a trade-off
+      between the time you spend on a product and the value a customer gets out of
+      it. What we as product managers may see as &ldquo;glaring&rdquo; errors or omissions
+      in the product may not be noticed or missed by the customer.</p>"
+    published_on: 12/21/2012
+    image: /samples/blog_posts/good-enough-never-is/jumping-man.jpg
+    skills: []
+- Social Proof with Redis:
+    _slug: social-proof-with-redis
+    byline: Conroy Whitney
+    description: I learned about this method of implementing social proof from the
+      guys at Scribd during their Web 2.0 Expo presentation “Social Design with Facebook”.
+      When implementing avatars, the Scribd guys suggest that you show all users who
+      have liked a particular item; but show the CURRENT user’s friendsFIRST so they
+      can quickly recognize their friends’ avatars at the top of the cluster of avatars.
+      These are the avatars that really matter; the rest of the avatars are just to
+      prove how popular a given item is.
+    content: "<p>I learned about this method of implementing&nbsp;<a href=\"http://en.wikipedia.org/wiki/Social_proof\">social
+      proof</a>&nbsp;from the guys at Scribd during their&nbsp;<a href=\"http://www.scribd.com/doc/38421940/Social-Design-with-Facebook-Web-2-0-Expo-NYC-2010\">Web
+      2.0 Expo presentation &ldquo;Social Design with Facebook&rdquo;</a>. When implementing
+      avatars, the Scribd guys suggest that you show all users who have liked a particular
+      item; but show the&nbsp;<strong>CURRENT</strong>&nbsp;user&rsquo;s friends<strong>FIRST</strong>&nbsp;so
+      they can quickly recognize their friends&rsquo; avatars at the top of the cluster
+      of avatars. These are the avatars that really matter; the rest of the avatars
+      are just to prove how popular a given item is.</p>\r\n<p>The traditional, relational
+      database solution (e.g., using MySQL) is I/O-intensive for getting this information
+      due to the scale of modern social apps (the number of items and user-friend
+      connections) and due to a number of other issues inherent in how the data is
+      stored and retrieved (such as the<a href=\"http://en.wikipedia.org/wiki/Cartesian_product\">cartesian
+      product</a>&nbsp;nature of joins).</p>\r\n<p>The Scribd solution uses&nbsp;<a
+      href=\"http://code.google.com/p/redis/\">Redis</a>&nbsp;which, if you haven&rsquo;t
+      heard of it, is essentially an in-memory set-based database (<a href=\"http://en.wikipedia.org/wiki/Set_(mathematics)\">mathematical
+      sets</a>, which can support operations such as unions, intersections, subtractions,
+      etc.). Scribd stores two types of sets in memory:</p>\r\n<ol>\r\n<li><strong>All
+      friend ids for a given user, for all users.</strong>&nbsp;So if user 1 has friends
+      2, 3, and 4 then the key would be 1, and the set would contain the values {2,
+      3, 4}. This size of storing these sets in memory would be ((# of users) x (number
+      of average friends per user))</li>\r\n<li><strong>All user ids for people who
+      follow a particular item, for all items</strong>&nbsp;So if Item 10 is followed
+      by Users 3, 6, and 7, then the key would be 10 and the set would contain the
+      values {3, 6, 7}. This size of storing these sets in memory would be ((# of
+      items) X (average # of people following any given item))</li>\r\n</ol>\r\n<p>The
+      social proof is quickly generated by doing:</p>\r\n<ol>\r\n<li>\"The current
+      user's friends who follow the current item\" would be {the set of the current
+      user's friends}&nbsp;<strong>intersect</strong>&nbsp;{the set of the current
+      item's followers}. In the above example, it would be {2,3,4}<strong>intersect</strong>&nbsp;{3,6,7}
+      which results in {3}.</li>\r\n<li>\"The other people who follow the current
+      item who are not friends with the current user\" would be {the set of the current
+      item's followers}&nbsp;<strong>subtract</strong>&nbsp;{the current user's friends}.
+      In the above example it would be {3,6,7}&nbsp;<strong>subtract</strong>&nbsp;{1,2,3}
+      which would be {6,7}.</li>\r\n</ol>\r\n<p>That&rsquo;s it! Two quick and painless,
+      in-memory operations with no I/O bottlenecks to worry about. You would still
+      store users, friendships, and item follows in a traditional database for persistence,
+      but you would duplicate some of that content in Redis for these quick operations.
+      Any CRUD operations would be duplicated in Redis. When you restart your servers,
+      you would re-generate the in-memory sets.</p>"
+    published_on: 12/09/2010
+    image: /samples/blog_posts/social-proof-with-redis/social-proof.jpg
+    skills: []
+- Real-Time, In-Browser Notifications with Node.js and Faye (HTML5 WebSockets):
+    _slug: real-time-in-browser-notifications-with-node-dot-js-and-faye-html5-websockets
+    byline: Conroy Whitney
+    description: For real-time, in-browser notifications, I just learned about this
+      at a Node.js Meetup presented by Xydo(let me know if you would like an invite).
+      Xydo wanted to be able to notify a user in their browser whenever an event happened
+      (like a friend sent them a direct message; or a news topic they followed was
+      updated). The main idea is that the user should not have to refresh their page
+      to see that these events are happening – they should know in real-time, in their
+      browser.
+    content: "<p>For real-time, in-browser notifications, I just learned about this
+      at a Node.js Meetup presented by&nbsp;<a href=\"http://www.xydo.com/\">Xydo</a>(let
+      me know if you would like an invite). Xydo wanted to be able to notify a user
+      in their browser whenever an event happened (like a friend sent them a direct
+      message; or a news topic they followed was updated). The main idea is that the
+      user should not have to refresh their page to see that these events are happening
+      &ndash; they should know in real-time, in their browser.</p>\r\n<p>The traditional
+      method of doing this is to use&nbsp;<a href=\"http://en.wikipedia.org/wiki/Polling_(computer_science)\">polling</a>&nbsp;&ndash;
+      you have a client-side script that pings your server for any new messages that
+      the user may want to know. This method is high CPU and high I/O (having to keep
+      pinging your server can overload it with requests, and having to keep checking
+      your database can cause an I/O bottleneck). Needless to say, this does not scale
+      well.</p>\r\n<p>The&nbsp;<a href=\"http://www.xydo.com/\">Xydo</a>&nbsp;solution
+      utilizes two &ldquo;hot, new technologies&rdquo;:&nbsp;<a href=\"http://nodejs.org/\">Node.js</a>&nbsp;and&nbsp;<a
+      href=\"http://en.wikipedia.org/wiki/WebSocket\">HTML5 WebSockets</a>. The idea
+      is that they keep an open connection from the browser to the server which allows
+      for communication from the server to the browser, even after the initial request.</p>\r\n<p>Why
+      is Node.js important? Well, because&nbsp;<a href=\"http://zgadzaj.com/benchmarking-node-js-testing-performance-against-apache-php/\">Node.js
+      can handle&nbsp;<strong>orders of magnitude</strong>&nbsp;more connections than
+      a traditional webserver (like Apache) can</a>. A traditional webserver receives
+      a request, blocks (i.e., ignores other requests) while it services that request
+      (most of that time is taken up waiting for I/O resources to become available),
+      then moves on to handle the next request. This limits a typical webserver&rsquo;s
+      throughput. Node.js does&nbsp;<strong>NOT</strong>&nbsp;block while it handles
+      requests which means it can handle many more per second; which makes it uniquely
+      suited to handle many low-service, open-ended requests.</p>\r\n<p><a href=\"http://en.wikipedia.org/wiki/WebSocket\">HTML5
+      WebSockets</a>&nbsp;use exactly that sort of low-service, open-ended requests
+      to do their majik.&nbsp;<a href=\"http://www.xydo.com/\">Xydo</a>specifically
+      uses a&nbsp;<a href=\"http://en.wikipedia.org/wiki/Publish/subscribe\">Pub/Sub</a>&nbsp;framework
+      called&nbsp;<a href=\"https://github.com/jcoglan/faye\">Faye</a>&nbsp;which
+      utilizes both Node.js and WebSockets. Faye allows them to &ldquo;publish&rdquo;
+      content from the servers to a given browser subscribed to that content, and
+      the content &ldquo;majikly&rdquo; shows up in the user&rsquo;s web browser.
+      For the record,&nbsp;<a href=\"https://github.com/jcoglan/faye\">Faye</a>&nbsp;<strong>does</strong>&nbsp;degrade
+      gracefully in&nbsp;<a href=\"http://en.wikipedia.org/wiki/Comparison_of_layout_engines_(HTML_5)#Related_specifications\">browsers
+      that do not support WebSockets</a>&nbsp;(by using JSONP or LongPolling) so you
+      do not have to worry about excluding the slow-adopters (read: all Internet Explorer
+      users).</p>\r\n<p>So put the two together:&nbsp;<a href=\"http://www.xydo.com/\">Xydo</a>&nbsp;creates
+      a publishing channel for each user when the user signs in (something like&nbsp;<code>\"/user/#{user_id}\"</code>).
+      The user&rsquo;s browser is the only subscriber to this channel. Whenever something
+      of interest to the user happens, a message is published onto the user&rsquo;s
+      channel which is then read to by the user&rsquo;s browser. In the use-case of
+      a direct message sent by another user, at the same time that you are INSERTing
+      the message into your database, you publish a message using Faye. In the use-case
+      of a particular topic being updated, you would find (in your database) all users
+      who subscribe to that topic, and publish multiple messages, one on each user&rsquo;s
+      channel.</p>\r\n<p>The final piece of the puzzle is formatting the messages
+      to be published, for which Xydo uses<a href=\"https://github.com/defunkt/mustache\">Mustache</a>&nbsp;(a
+      template engine even more strict than HTML/ERB).</p>\r\n<p>So that&rsquo;s it!&nbsp;<a
+      href=\"http://nodejitsu.com/\">Spin up some Node.js servers on a service like
+      NodeJitsu</a>, use the&nbsp;<a href=\"https://github.com/jcoglan/faye\">Faye
+      rack plugin</a>&nbsp;in your rails application, and you can easily provide real-time,
+      in-browser updates to your users&nbsp;<strong>WITHOUT</strong>overwhelming your
+      servers.</p>"
+    published_on: 12/09/2010
+    image: /samples/blog_posts/real-time-in-browser-notifications-with-node-dot-js-and-faye-html5-websockets/pusher-logo.png
+    skills: []
+- Needing to Scale is a Good Problem to Have:
+    _slug: needing-to-scale-is-a-good-problem-to-have
+    byline: Conroy Whitney
+    description: 'I just finished listening to Scale at Facebook from InfoQ QCon 2010
+      where Aditya Agarwal (Director of Engineering at Facebook) discusses the layers
+      that make up Facebook and where/how their content is stored, retrieved, aggregated,
+      and presented. Which would you rather have? Over-architected? Or under-architected?
+      To echo Aditya''s sentiments: needing to scale is a good problem to have.'
+    content: "<p>I just finished listening to&nbsp;<a href=\"http://www.infoq.com/presentations/Scale-at-Facebook\">Scale
+      at Facebook</a>&nbsp;from&nbsp;<a href=\"http://www.infoq.com/QConLondon2010\">InfoQ
+      QCon 2010</a>&nbsp;where Aditya Agarwal (Director of Engineering at Facebook)
+      discusses the layers that make up Facebook and where/how their content is stored,
+      retrieved, aggregated, and presented.</p>\r\n<p>This was an excellent talk,
+      not only because Aditya gave good explanations of both the problems and the
+      solutions that Facebook has worked through, but because he repeatedly emphasized:
+      needing to scale is a good problem to have.</p>\r\n<p>One of my favourite examples
+      of this concept from this talk was Facebook Photos. When they launched Photos
+      in May 2006, they created a solution that was quick, lean, and allowed for iterative
+      improvement in the future; they did not over-architecture the solution.</p>\r\n<p>As
+      a result, they were able to launch Photos in 2 months which they considered
+      to be a great competitive advantage.</p>\r\n<p>They could not have predicted,
+      in advance, how well this feature would be adopted. I remember when Photos came
+      out -- I found it a bit strange, because that was not how I was currently using
+      Facebook at the time. In fact, my first Photo album, \"important things to remember\",
+      contains&nbsp;<a href=\"http://sphotos.ak.fbcdn.net/photos-ak-sf2p/v12/229/113/12803586/n12803586_30089384_9419.jpg\">this
+      image of colours</a>that allowed me to test the \"in this photo\" tagging (you
+      over over the colours and you are given their names). That is how seriously
+      I took the feature at the time.</p>\r\n<p>However, within 3 months, the Photos
+      feature was so widely-used that it was time for a rewrite. Spending 2 months
+      on a solution that lasted 3 months may seem like \"waste\", but consider which
+      is the larger waste: 2 months to test a product in the market, before your competitors,
+      with the option to iterate and improve later; or more than 2 months to over-architect
+      a solution for a product that you do not know -- for sure -- will be adopted.</p>\r\n<p>Yes,
+      there is the ideal middle-ground where in a perfect world you know exactly how
+      many users will adopt your product and thus spend an appropriate amount of development
+      time scaling the issue; however, from my experience, marketing tends to over-estimate
+      product adoption rates as often as developers tend to over-architect solutions.</p>\r\n<p>The
+      question then becomes: which would you rather have? Over-architected? Or under-architected?
+      To echo Aditya's sentiments: needing to scale is a good problem to have.</p>"
+    published_on: 06/09/2010
+    image: /samples/blog_posts/needing-to-scale-is-a-good-problem-to-have/growth.jpg
     skills: []
