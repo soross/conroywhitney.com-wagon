@@ -9,7 +9,7 @@ seo_title: Conroy Whitney - Full-Stack Rails + React Software Engineer
 meta_description: Hi. I'm Conroy. I'm a Full Stack Ruby on Rails + React.js Web Developer.
   Nice to meet you.
 editable_elements:
-  main/inspiration/inspiration_text: I am a classically trained Software Engineer
+  main/sections/summary_text: I am a classically trained Software Engineer
     with a degree in Computer Science who practices the art of Software Craftsmanship.
     The bulk of my full-stack experience is in Ruby on Rails and React / Redux. I
     value working with forward-thinking companies who value cooperation and are driven
@@ -22,6 +22,7 @@ editable_elements:
     for the modern unit of compute. I believe that users expect more today from web
     and mobile applications than they did five years ago, which requires a paradigm
     shift in the way we develop software.
+  main/inspiration/inspiration_text: I am a web-dev software engineer. I like what I do, very much. I like creating, learning, and problem-solving. I like taking an idea or feature and (systematically and conscientiously) making that idea a (digital) reality. I like deconstructing nouns into their component parts (their data), storing them, retrieving them as needed, then re-assembling them according to governing constraints and aesthetics. I like creating things that people use, and creating these things with the users in mind.<br /><br />I like to think that what I am able to create can make a difference in people's lives, if I let it. At this point in my life, though, I am re-realizing that my potentiality for affect is inextricably linked with the domain in which I am creating. If I am solving a problem that does not directly help others, to what end am I spending my time and efforts? Lately, I have been struggling to answer that question to my own satisfaction.<br /><br />I don't have that answer, yet, and perhaps that's because the question is not really technical in nature, but perhaps a part of humanity ourselves. Perhaps by creating technology that fades into the background and helps automate parts of our everyday lives, we can instead spend more time with the people we care about, doing the things we care about doing. Perhaps that is the next wave of the technological revolution -- a shift back to the analog and human-scale. It's all about relationships.
 ---
 <!DOCTYPE html>
 <html>
@@ -87,7 +88,13 @@ editable_elements:
   <div class="ui vertical feature segment">
     <div class="ui stackable center aligned page grid">
 
-      {% include 'section_header_with_divider_icon' with icon: 'rocket', text: "Here are things that I have done (that I'm proud of)" %}
+      {% include 'section_header_with_divider_icon' with icon: 'rocket', text: "What I do" %}
+
+      <div class="sixteen wide column">
+        <div class="ui segment summary">
+          {% editable_text 'summary_text', rows: 10, format: 'html', hint: 'Block of text in summary portion of homepage' %}{% endeditable_text %}
+        </div><!-- /piled segment -->
+      </div><!--/column -->
 
       {% include 'sections_grid' %}
 
@@ -131,7 +138,7 @@ editable_elements:
   <div class="ui vertical segment">
     <div class="ui stackable center aligned page grid">
 
-    {% include 'section_header_with_divider_icon' with icon: 'fire', text: "Things that inspire me" %}
+      {% include 'section_header_with_divider_icon' with icon: 'fire', text: "Why I do what I do" %}
 
       <div class="sixteen wide column">
         <div class="ui piled segment inspiration">
