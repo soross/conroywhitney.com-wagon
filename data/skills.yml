@@ -207,7 +207,6 @@
     title: Git
     description: Distributed is the new centralized
     url: http://git-scm.com/
-    image: "/samples/content_entries/git-logo.png"
     experiences: []
 - Linux Command Line:
     _slug: linux
