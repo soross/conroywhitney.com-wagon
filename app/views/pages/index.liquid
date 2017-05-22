@@ -1,32 +1,46 @@
 ---
-title: Conroy Whitney - Ruby on Rails Web Developer
-is_layout: false
+title: Full-Stack Rails + React Software Engineer
+slug: index
+position: 0
 listed: false
 published: true
-cache_strategy: none
-response_type: text/html
-position: 0
-seo_title: Conroy Whitney - Full Stack Ruby on Rails Web Developer
-meta_description: Hi. I'm Conroy. I'm a Full Stack Ruby on Rails Web Developer. Nice
-  to meet you.
+is_layout: false
+seo_title: Conroy Whitney - Full-Stack Rails + React Software Engineer
+meta_description: Hi. I'm Conroy. I'm a Full Stack Ruby on Rails + React.js Web Developer.
+  Nice to meet you.
 editable_elements:
-  main/inspiration/inspiration_text: "<p><strong><a href=\"https://vimeo.com/27582815\">One
-    day, we all will die</a></strong>.&nbsp;The sooner we can come to terms with that,
-    the sooner we can decide what it is that we wish to do during our lives.&nbsp;The
-    most valuable resource that any of us have is our&nbsp;<strong>time</strong> and
-    our&nbsp;<strong>energy</strong>. To that end, I choose to spend mine mindfully.</p>\r\n<p
-    class=\"p1\">I am drawn towards people who live what they believe and are sharing
-    that with other people. I believe in autonomy and trust; in cooperation and sharing;
-    in inspiring and educating. I do&nbsp;<strong>no</strong><strong>t</strong> believe
-    in centralization and authority; in usury and greed; in intimidation and deception.</p>\r\n<p
-    class=\"p1\">I am dedicated to making a positive impact on the world. To me, \"Be
-    the change you want to see in the world\" means that when I am true to myself
-    and my beliefs, things will fall in place around me. When I choose to spend my
-    time and energy on a project, it must be something that I believe in wholeheartedly.</p>\r\n<p
-    class=\"p1\">I try to consistently maintain a positive attitude in everything
-    that I do. And yet, I am still human. When I lose perspective, I simply go outside,
-    look up at the stars, and remember:&nbsp;<strong><a href=\"https://www.youtube.com/watch?v=-wJ-js_NLV8\">it's
-    just a ride</a>.</strong></p>"
+  main/inspiration/inspiration_text: I am a web-dev software engineer. I like what
+    I do, very much. I like creating, learning, and problem-solving. I like taking
+    an idea or feature and (systematically and conscientiously) making that idea a
+    (digital) reality. I like deconstructing nouns into their component parts (their
+    data), storing them, retrieving them as needed, then re-assembling them according
+    to governing constraints and aesthetics. I like creating things that people use,
+    and creating these things with the users in mind.<br><br>I like to think that
+    what I am able to create can make a difference in people's lives, if I let it.
+    At this point in my life, though, I am re-realizing that my potentiality for affect
+    is inextricably linked with the domain in which I am creating. If I am solving
+    a problem that does not directly help others, to what end am I spending my time
+    and efforts? Lately, I have been struggling to answer that question to my own
+    satisfaction.<br><br>I don't have that answer, yet, and perhaps that's because
+    the question is not really technical in nature, but perhaps a part of humanity
+    ourselves. Perhaps by creating technology that fades into the background and helps
+    automate parts of our everyday lives, we can instead spend more time with the
+    people we care about, doing the things we care about doing. Perhaps that is the
+    next wave of the technological revolution -- a shift back to the analog and human-scale.
+    It's all about relationships.
+  main/sections/summary_text: "<p>I am a classically trained Software Engineer with
+    a degree in Computer Science who practices the art of Software Craftsmanship.
+    The bulk of my full-stack experience is in Ruby on Rails and React / Redux. I
+    value working with forward-thinking companies who value cooperation and are driven
+    to make a difference in the world. I work on a remote, part-time, freelance arrangement
+    with distributed teams using agile methodologies and collaborative tools.<br><br>Increasingly,
+    my interest is moving towards progressive, reactive applications built using serverless
+    technologies such as AWS Lambda, Kinesis, DynamoDB, Elasticsearch, and Websockets.
+    I value balancing the old and the new — using decades old insights from architecting
+    J2EE enterprise applications, in conjunction with new tools and paradigms developed
+    for the modern unit of compute. I believe that users expect more today from web
+    and mobile applications than they did five years ago, which requires a paradigm
+    shift in the way we develop software.<br></p>"
 ---
 <!DOCTYPE html>
 <html>
@@ -92,7 +106,13 @@ editable_elements:
   <div class="ui vertical feature segment">
     <div class="ui stackable center aligned page grid">
 
-      {% include 'section_header_with_divider_icon' with icon: 'rocket', text: "Here are things that I have done (that I'm proud of)" %}
+      {% include 'section_header_with_divider_icon' with icon: 'rocket', text: "What I do" %}
+
+      <div class="sixteen wide column">
+        <div class="ui segment summary">
+          {% editable_text 'summary_text', rows: 10, format: 'html', hint: 'Block of text in summary portion of homepage' %}{% endeditable_text %}
+        </div><!-- /piled segment -->
+      </div><!--/column -->
 
       {% include 'sections_grid' %}
 
@@ -136,7 +156,7 @@ editable_elements:
   <div class="ui vertical segment">
     <div class="ui stackable center aligned page grid">
 
-    {% include 'section_header_with_divider_icon' with icon: 'fire', text: "Things that inspire me" %}
+      {% include 'section_header_with_divider_icon' with icon: 'fire', text: "Why I do what I do" %}
 
       <div class="sixteen wide column">
         <div class="ui piled segment inspiration">
@@ -159,4 +179,4 @@ editable_elements:
 
 </body>
 
-</html>
+</html>

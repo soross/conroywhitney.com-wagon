@@ -1,61 +1,54 @@
----
 name: Experiences
-description: Education and Employment that has prepared you for what you do
 slug: experiences
+description: Education and Employment that has prepared you for what you do
 label_field_name: title
-order_by: manually
+order_by: _position
 order_direction: asc
+public_submission_enabled: false
+public_submission_account_emails: []
 fields:
 - title:
     label: Title
     type: string
-    hint: Name of employer, school, etc.
     required: true
-    unique: false
+    hint: Name of employer, school, etc.
     localized: false
 - subtitle:
     label: Subtitle
     type: string
-    hint: Role at company, major, etc.
     required: false
-    unique: false
+    hint: Role at company, major, etc.
     localized: false
 - dates:
     label: Dates
     type: string
-    hint: String representation of date range
     required: false
-    unique: false
+    hint: String representation of date range
     localized: false
 - description:
     label: Description
     type: text
-    hint: Describe what you did while there
     required: true
-    unique: false
+    hint: Describe what you did while there
     localized: false
-    text_formatting: html
 - logo:
     label: Logo
     type: file
-    hint: Logo of company, university, etc.
     required: false
-    unique: false
+    hint: Logo of company, university, etc.
     localized: false
 - url:
     label: URL
     type: string
-    hint: Link to company, university, etc.
     required: false
-    unique: false
+    hint: Link to company, university, etc.
     localized: false
 - skills:
     label: Skills
     type: many_to_many
-    hint: Which skills did you utilize while there
     required: false
-    unique: false
+    hint: Which skills did you utilize while there
     localized: false
-    class_name: skills
+    target: skills
     inverse_of: experiences
     ui_enabled: true

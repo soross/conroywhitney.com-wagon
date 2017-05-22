@@ -1,0 +1,30 @@
+---
+title: Content type template
+slug: content_type_template
+position: 0
+listed: true
+published: true
+is_layout: false
+content_type: skills
+---
+{% assign section = 'skills' %}
+{% capture masthead_description %}by {{ skill.description }}{% endcapture %}
+{% extends 'index' %}
+{% block 'main' %}
+  <div class="ui vertical segment">
+    <div class="ui stackable center aligned page grid">
+      {% include 'section_header_with_divider_icon' with icon: 'newspaper', text: "Blog Posts" %}
+      {% with_scope skills: skill._slug %}
+        {% include 'blog_posts_segment' %}
+      {% endwith_scope %}
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+  <div class="ui stackable vertical segment">
+    <div class="ui center aligned page grid">
+      {% include 'section_header_with_divider_icon' with icon: 'student', text: "Experience" %}
+      {% with_scope skills: skill._slug %}
+        {% include 'experience_segment' %}
+      {% endwith_scope %}
+    </div><!-- /grid -->
+  </div><!-- /segment -->
+{% endblock %}

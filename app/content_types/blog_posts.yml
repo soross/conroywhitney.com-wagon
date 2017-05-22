@@ -1,62 +1,54 @@
----
 name: Blog Posts
-description: Write about what you know
 slug: blog_posts
+description: Write about what you know
 label_field_name: title
 order_by: published_on
 order_direction: desc
+public_submission_enabled: false
+public_submission_account_emails: []
 fields:
 - title:
     label: Title
     type: string
-    hint: Title of blog post
     required: true
-    unique: true
+    hint: Title of blog post
     localized: false
 - byline:
     label: ByLine
     type: string
-    hint: Who wrote this blog entry
     required: false
-    unique: false
+    hint: Who wrote this blog entry
     localized: false
 - description:
     label: Description
     type: text
-    hint: Short description of blog post
     required: true
-    unique: false
+    hint: Short description of blog post
     localized: false
-    text_formatting: none
 - content:
     label: Content
     type: text
-    hint: Entire body of text for this blog entry in rich HTML format
     required: true
-    unique: false
+    hint: Entire body of text for this blog entry in rich HTML format
     localized: false
-    text_formatting: html
 - published_on:
     label: Date Published
     type: date
-    hint: The date when this blog entry was released (can backdate)
     required: false
-    unique: false
+    hint: The date when this blog entry was released (can backdate)
     localized: false
 - image:
     label: Image
     type: file
-    hint: Image related to blog post (logo, etc.)
     required: false
-    unique: false
+    hint: Image related to blog post (logo, etc.)
     localized: false
 - skills:
     label: Skills
     type: many_to_many
-    hint: Which skills are related to this blog post
     required: false
-    unique: false
+    hint: Which skills are related to this blog post
     localized: false
-    class_name: skills
+    target: skills
     inverse_of: experiences
     ui_enabled: true
