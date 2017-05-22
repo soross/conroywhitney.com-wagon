@@ -1,47 +1,43 @@
----
 name: Skils
+slug: skills
 description: Unique technologies, frameworks, tools, etc. that you have used in the
   past
-slug: skills
 label_field_name: title
-order_by: manually
+order_by: _position
 order_direction: asc
+public_submission_enabled: false
+public_submission_account_emails: []
 fields:
 - title:
     label: Title
     type: string
-    hint: Name of skill
     required: true
-    unique: true
+    hint: Name of skill
     localized: false
 - description:
     label: Description
     type: string
-    hint: Summary of experience with skill
     required: false
-    unique: false
+    hint: Summary of experience with skill
     localized: false
 - url:
     label: URL
     type: string
-    hint: Link to skill homepage on interwebs
     required: false
-    unique: false
+    hint: Link to skill homepage on interwebs
     localized: false
 - image:
     label: Image
     type: file
-    hint: Image or logo associated with skill
     required: false
-    unique: false
+    hint: Image or logo associated with skill
     localized: false
 - experiences:
     label: Experiences
     type: many_to_many
-    hint: During which experiences have you utilized this skill
     required: false
-    unique: false
+    hint: During which experiences have you utilized this skill
     localized: false
-    class_name: experiences
+    target: experiences
     inverse_of: skills
     ui_enabled: true

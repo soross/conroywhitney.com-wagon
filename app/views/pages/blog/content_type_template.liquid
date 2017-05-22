@@ -1,0 +1,45 @@
+---
+title: Content type template
+slug: content_type_template
+position: 0
+listed: true
+published: true
+is_layout: false
+content_type: blog_posts
+---
+{% assign section = 'blog' %}
+{% capture masthead_description %}by {{ blog_post.byline }}{% endcapture %}
+{% extends 'index' %}
+{% block 'main' %}
+<div class="ui vertical segment">
+  <div class="ui page grid">
+    <div class="sixteen wide column">
+      <div class="ui piled segment">
+        <div class="ui huge ribbon label">
+          {{ blog_post.published_on | date: "%Y-%m-%d" }}
+        </div><!-- /ribbon -->
+        <div class="post">
+          <h2 class="ui header">
+            {{ blog_post.title }}
+          </h2>
+          <div class="content">
+            {% if blog_post.image.url %}
+              <img class="ui small left floated image" src="{{ blog_post.image.url }}">
+            {% else %}
+              <img class="ui small left floated image" src="{{ 'wireframe/square-image.png' | theme_image_url }}">
+            {% endif %}
+            {{ blog_post.content }}
+          </div><!-- /content -->
+          <div class="ui tag labels">
+            {% for skill in blog_post.skills %}
+              <a class="ui label" href="{% path_to skill %}">
+              {{ skill.title }}
+            </a>
+          {% endfor %}
+          </div><!-- /tags -->
+        </div><!-- /blog post -->
+      </div><!-- /segment -->
+    </div><!-- /column -->
+  </div><!-- /grid -->
+</div><!-- /segment -->
+{% endblock %}

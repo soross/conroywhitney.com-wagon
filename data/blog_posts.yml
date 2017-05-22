@@ -1,6 +1,6 @@
----
 - SQL != Memcache != Mongo != Redis:
     _slug: sql-memcache-mongo-redis
+    title: SQL != Memcache != Mongo != Redis
     byline: Conroy Whitney
     description: I love me some noSQL. However, there is a time and a place for each
       technology. I put this presentation together for Asheville Coder's League in
@@ -14,11 +14,12 @@
       width=\"550\" height=\"400\" frameborder=\"0\" allowfullscreen=\"\" src=\"http://prezi.com/embed/wkwsffkxmnsp/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0#\"></iframe></p>\r\n<h2>YouTube
       Video</h2>\r\n<p><iframe width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"
       src=\"https://www.youtube.com/embed/o0HB80YBAhE\"></iframe></p>"
-    published_on: 08/20/2014
-    image: /samples/blog_posts/sql-memcache-mongo-redis/is_not_1.png
+    published_on: '2014-08-20'
+    image: "/samples/content_entries/is_not_1.png"
     skills: []
 - The Struggle Against Entropy:
     _slug: the-struggle-against-entropy
+    title: The Struggle Against Entropy
     byline: Conroy Whitney
     description: We all know that entropy is going to win, eventually. That's considered
       a given in physics. And empirically we can say that's true in our own lives.
@@ -82,11 +83,12 @@
       and analyzable numbers so that even when I lose a battle, all is not lost. We
       can pick up our wills and fight the struggle against entropy for yet another
       day.</p>"
-    published_on: 03/05/2014
-    image: /samples/blog_posts/the-struggle-against-entropy/entropy.jpeg
+    published_on: '2014-03-05'
+    image: "/samples/content_entries/entropy.jpeg"
     skills: []
 - Motivations:
     _slug: motivations
+    title: Motivations
     byline: Conroy Whitney
     description: 'Take a moment and reflect on why it is that you do what you do.
       Have some meta-thoughts: thinking about why it is that you are thinking what
@@ -106,11 +108,12 @@
       a moment and reflect on why it is that you do what you do. Have some meta-thoughts:
       thinking about why it is that you are thinking what you&rsquo;re thinking. The
       only way to change the future is to notice the present decide to act.</p>"
-    published_on: 01/08/2014
-    image: /samples/blog_posts/motivations/make-a-difference.jpg
+    published_on: '2014-01-08'
+    image: "/samples/content_entries/make-a-difference.jpg"
     skills: []
 - Appraising Your Gem:
     _slug: appraising-your-gem
+    title: Appraising Your Gem
     byline: Conroy Whitney
     description: Thoughtbot has done it again with appraisal, a neat and nifty gem
       for testing your gem in different ruby and rails environments. It's especially
@@ -174,11 +177,12 @@
       only been related to the fact that I created a rails4 engine, then was trying
       to backport its dummy to rails3. Pretty sure.</p>\r\n<p><a href=\"http://www.youtube.com/watch?v=qKVVDAKi_d4\">And
       that's the end of that that chapter.</a></p>"
-    published_on: 11/19/2013
-    image: /samples/blog_posts/appraising-your-gem/prospector.jpg
+    published_on: '2013-11-19'
+    image: "/samples/content_entries/prospector.jpg"
     skills: []
 - Keeping a Secret:
     _slug: keeping-a-secret
+    title: Keeping a Secret
     byline: Conroy Whitney
     description: 'Rails 4 introduces a new way of signing cookies that differs from
       the previous method in Rails 3. When you upgrade to Rails 4, you are likely
@@ -224,11 +228,12 @@
       href=\"http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#action-pack&gt;http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#action-pack</li>\r\n<li><a
       href=\"http://dev.mensfeld.pl/2013/06/upgrading-to-rails-4-0-from-rails-3-2-test-case-part-i-preparations-configuration-gems/\">http://dev.mensfeld.pl/2013/06/upgrading-to-rails-4-0-from-rails-3-2-test-case-part-i-preparations-configuration-gems/</a></li>\r\n<li><a
       href=\"https://github.com/laserlemon/figaro\">https://github.com/laserlemon/figaro</a></li>\r\n</ul>"
-    published_on: 11/08/2013
-    image: /samples/blog_posts/keeping-a-secret/top-secret.png
+    published_on: '2013-11-08'
+    image: "/samples/content_entries/top-secret.png"
     skills: []
 - Good Enough Never Is:
     _slug: good-enough-never-is
+    title: Good Enough Never Is
     byline: Conroy Whitney
     description: I really enjoy reading Cindy Alvarez and I highly recommend that
       any product managers read and internalize her advice. If we all did, the world
@@ -257,11 +262,12 @@
       between the time you spend on a product and the value a customer gets out of
       it. What we as product managers may see as &ldquo;glaring&rdquo; errors or omissions
       in the product may not be noticed or missed by the customer.</p>"
-    published_on: 12/21/2012
-    image: /samples/blog_posts/good-enough-never-is/jumping-man.jpg
+    published_on: '2012-12-21'
+    image: "/samples/content_entries/jumping-man.jpg"
     skills: []
 - Social Proof with Redis:
     _slug: social-proof-with-redis
+    title: Social Proof with Redis
     byline: Conroy Whitney
     description: I learned about this method of implementing social proof from the
       guys at Scribd during their Web 2.0 Expo presentation “Social Design with Facebook”.
@@ -309,11 +315,12 @@
       but you would duplicate some of that content in Redis for these quick operations.
       Any CRUD operations would be duplicated in Redis. When you restart your servers,
       you would re-generate the in-memory sets.</p>"
-    published_on: 12/09/2010
-    image: /samples/blog_posts/social-proof-with-redis/social-proof.jpg
+    published_on: '2010-12-09'
+    image: "/samples/content_entries/social-proof.jpg"
     skills: []
 - Real-Time, In-Browser Notifications with Node.js and Faye (HTML5 WebSockets):
     _slug: real-time-in-browser-notifications-with-node-dot-js-and-faye-html5-websockets
+    title: Real-Time, In-Browser Notifications with Node.js and Faye (HTML5 WebSockets)
     byline: Conroy Whitney
     description: For real-time, in-browser notifications, I just learned about this
       at a Node.js Meetup presented by Xydo(let me know if you would like an invite).
@@ -376,11 +383,12 @@
       rack plugin</a>&nbsp;in your rails application, and you can easily provide real-time,
       in-browser updates to your users&nbsp;<strong>WITHOUT</strong>overwhelming your
       servers.</p>"
-    published_on: 12/09/2010
-    image: /samples/blog_posts/real-time-in-browser-notifications-with-node-dot-js-and-faye-html5-websockets/pusher-logo.png
+    published_on: '2010-12-09'
+    image: "/samples/content_entries/pusher-logo.png"
     skills: []
 - Needing to Scale is a Good Problem to Have:
     _slug: needing-to-scale-is-a-good-problem-to-have
+    title: Needing to Scale is a Good Problem to Have
     byline: Conroy Whitney
     description: 'I just finished listening to Scale at Facebook from InfoQ QCon 2010
       where Aditya Agarwal (Director of Engineering at Facebook) discusses the layers
@@ -418,6 +426,6 @@
       product adoption rates as often as developers tend to over-architect solutions.</p>\r\n<p>The
       question then becomes: which would you rather have? Over-architected? Or under-architected?
       To echo Aditya's sentiments: needing to scale is a good problem to have.</p>"
-    published_on: 06/09/2010
-    image: /samples/blog_posts/needing-to-scale-is-a-good-problem-to-have/growth.jpg
+    published_on: '2010-06-09'
+    image: "/samples/content_entries/growth.jpg"
     skills: []
