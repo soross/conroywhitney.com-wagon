@@ -1,43 +1,18 @@
-- Georgia Institute of Technology:
-    _slug: georgia-tech
-    title: Georgia Institute of Technology
-    subtitle: B.S. Computer Science
-    dates: Aug 2004 - Jul 2008
-    description: <p>Along with base classes in <strong>math</strong>, <strong>logic</strong>,
-      <strong>architecture</strong>, <strong>data structures</strong>, and <strong>algorithms</strong>,
-      I focused&nbsp;on three "specialities" which I believe help prepare me as a
-      Web Developer:&nbsp;<strong>Software</strong> <strong>Engineering </strong>(Agile/XP
-      methodologies, project management, and testing), <strong>Database Technologies&nbsp;</strong>(underlying
-      principles and emerging technologies)&nbsp;and <strong>AI </strong>(both Artificial
-      Intelligence and Machine Learning).&nbsp;During my entire time at Georgia Tech,
-      I worked at <a href="http://www.careerbuilder.com/">CareerBuilder.com</a> as
-      a <a href="http://www.coop.gatech.edu/">co-operative student employee</a>.</p>
-    logo: "/samples/content_entries/georgia-tech-logo.gif"
-    url: http://www.gatech.edu/
-    skills: []
-- CareerBuilder.com:
-    _slug: careerbuilder-dot-com
-    title: CareerBuilder.com
+- Zeal:
+    _slug: zeal
+    title: Zeal
     subtitle: Software Engineer
-    dates: May 2005 - July 2010
-    description: "<p><strong>Software Engineer II / III</strong></p>\r\n<ul>\r\n<li>Deploying
-      changes on 24/7 n-tier platform used by 16M unique visitors per month</li>\r\n<li>Heavy
-      utilization of A/B testing to determine business impact of changes</li>\r\n<li>Skunkworks
-      projects for data normalization / analysis for \"Did you mean?\" and&nbsp;\"People
-      who liked this also liked this\" features</li>\r\n<li>Worked with international
-      / remote team building international clones of flagship site</li>\r\n</ul>\r\n<p><strong>API
-      Lead Developer (<a href=\"http://developer.careerbuilder.com/\">http://developer.careerbuilder.com/</a>)</strong></p>\r\n<ul>\r\n<li>Worked
-      with internal and external customers who were using the API</li>\r\n<li>Maintain,
-      improve, and extend API based on usage and feature requests</li>\r\n<li>Analyzed
-      and monitored API usage statistics to prevent fraud / abuse</li>\r\n<li>Provided
-      technical advice for partnership negotiations involving the CareerBuilder.com
-      API</li>\r\n</ul>\r\n<p><strong>CBSalary.com / CareerPath.com</strong></p>\r\n<ul>\r\n<li>Migrated
-      outsourced platform onto main CareerBuilder platform</li>\r\n<li>Worked and
-      communicated directly with business stakeholders</li>\r\n<li>Created project
-      timeline and strategy in lean/iterative fashion</li>\r\n<li>Transitioned between
-      platforms on time and without interruption</li>\r\n</ul>"
-    logo: "/samples/content_entries/careerbuilder-logo.png"
-    url: http://www.careerbuilder.com/
+    dates: November 2015 - August 2016
+    description: "<p>We are digital artisans, designing and engineering amazing web
+      and mobile products. We love what we do. We have a passion for building projects
+      that enhance people's lives. We have a zeal for great code serving the greater
+      good. Huge problems are solved with great ideas. We're here to bring those ideas
+      to life. Because, the truth is, we're not the heroes: you are. From vision to
+      implementation, each step of our process ensures that what we've crafted is
+      exactly what is needed. What good is the solution, if it doesn't make huge strides
+      towards solving the problem? Let's solve problems, together.<br></p>"
+    logo: "/samples/content_entries/zeal-logo.png"
+    url: https://codingzeal.com/
     skills: []
 - Quirky:
     _slug: quirky
@@ -71,28 +46,29 @@
     logo: "/samples/content_entries/quirky-logo.png"
     url: https://www.quirky.com/
     skills: []
-- Salesforce $1M Hackathon:
-    _slug: salesforce-$1m-hackathon
-    title: Salesforce $1M Hackathon
-    subtitle: Heroku+Force.com and Open Source Ruby Prizes
-    dates: October 2014
-    description: "<p>Awarded two prizes at the <a href=\"https://developer.salesforce.com/million-dollar-hackathon\">Salesforce
-      $1million Hackathon 2014</a> in San Francisco, a 48 hour hackathon leveraging
-      the Salesforce platform, in which all code was written during the allowed start/end
-      times.</p>\r\n<ul>\r\n<li><strong>12th place in Heroku + Force.com category</strong>
-      for&nbsp;<a href=\"http://challengepost.com/software/copilot-commercial-real-estate-management-system\">CoPilot
-      Commercial Real Estate Management System</a>,&nbsp;a web application that manages
-      properties, task assignments, and comments through Salesforce Custom Objects,
-      Workflow, and Chatter APIs through use and extension of the <a href=\"https://github.com/ejholmes/restforce\">Restforce
-      gem</a>.</li>\r\n<li><strong>Open Source Ruby Prize</strong> for <a href=\"https://github.com/conroywhitney/restforce-sobject\">restforce-sobject</a>&nbsp;which
-      utilizes ruby metaprogramming to create a decorator pattern around Restforce
-      objects in order to</li>\r\n<ul>\r\n<li>Provide a ActiveRecord-esque interface
-      to query / save through Salesforce API</li>\r\n<li>Interact with Salesforce
-      objects in a more ruby-like way and standardize Custom Object interface and
-      attributes</li>\r\n<li>Encapsulate Chatter / Task API logic to provide consistent
-      interface for developer</li>\r\n</ul>\r\n</ul>"
-    logo: "/samples/content_entries/salesforce-logo.png"
-    url: https://developer.salesforce.com/million-dollar-hackathon
+- CareerBuilder.com:
+    _slug: careerbuilder-dot-com
+    title: CareerBuilder.com
+    subtitle: Software Engineer
+    dates: May 2005 - July 2010
+    description: "<p><strong>Software Engineer II / III</strong></p>\r\n<ul>\r\n<li>Deploying
+      changes on 24/7 n-tier platform used by 16M unique visitors per month</li>\r\n<li>Heavy
+      utilization of A/B testing to determine business impact of changes</li>\r\n<li>Skunkworks
+      projects for data normalization / analysis for \"Did you mean?\" and&nbsp;\"People
+      who liked this also liked this\" features</li>\r\n<li>Worked with international
+      / remote team building international clones of flagship site</li>\r\n</ul>\r\n<p><strong>API
+      Lead Developer (<a href=\"http://developer.careerbuilder.com/\">http://developer.careerbuilder.com/</a>)</strong></p>\r\n<ul>\r\n<li>Worked
+      with internal and external customers who were using the API</li>\r\n<li>Maintain,
+      improve, and extend API based on usage and feature requests</li>\r\n<li>Analyzed
+      and monitored API usage statistics to prevent fraud / abuse</li>\r\n<li>Provided
+      technical advice for partnership negotiations involving the CareerBuilder.com
+      API</li>\r\n</ul>\r\n<p><strong>CBSalary.com / CareerPath.com</strong></p>\r\n<ul>\r\n<li>Migrated
+      outsourced platform onto main CareerBuilder platform</li>\r\n<li>Worked and
+      communicated directly with business stakeholders</li>\r\n<li>Created project
+      timeline and strategy in lean/iterative fashion</li>\r\n<li>Transitioned between
+      platforms on time and without interruption</li>\r\n</ul>"
+    logo: "/samples/content_entries/careerbuilder-logo.png"
+    url: http://www.careerbuilder.com/
     skills: []
 - Whitney Commercial Real Estate:
     _slug: whitney-commercial-real-estate
@@ -115,6 +91,46 @@
       \"recent activity\" PDF booklets&nbsp;</li>\r\n</ul>"
     logo: "/samples/content_entries/whitney-commercial-logo.png"
     url: http://www.whitneycre.com/
+    skills: []
+- Georgia Institute of Technology:
+    _slug: georgia-tech
+    title: Georgia Institute of Technology
+    subtitle: B.S. Computer Science
+    dates: Aug 2004 - Jul 2008
+    description: <p>Along with base classes in <strong>math</strong>, <strong>logic</strong>,
+      <strong>architecture</strong>, <strong>data structures</strong>, and <strong>algorithms</strong>,
+      I focused&nbsp;on three "specialities" which I believe help prepare me as a
+      Web Developer:&nbsp;<strong>Software</strong> <strong>Engineering </strong>(Agile/XP
+      methodologies, project management, and testing), <strong>Database Technologies&nbsp;</strong>(underlying
+      principles and emerging technologies)&nbsp;and <strong>AI </strong>(both Artificial
+      Intelligence and Machine Learning).&nbsp;During my entire time at Georgia Tech,
+      I worked at <a href="http://www.careerbuilder.com/">CareerBuilder.com</a> as
+      a <a href="http://www.coop.gatech.edu/">co-operative student employee</a>.</p>
+    logo: "/samples/content_entries/georgia-tech-logo.gif"
+    url: http://www.gatech.edu/
+    skills: []
+- Salesforce $1M Hackathon:
+    _slug: salesforce-$1m-hackathon
+    title: Salesforce $1M Hackathon
+    subtitle: Heroku+Force.com and Open Source Ruby Prizes
+    dates: October 2014
+    description: "<p>Awarded two prizes at the <a href=\"https://developer.salesforce.com/million-dollar-hackathon\">Salesforce
+      $1million Hackathon 2014</a> in San Francisco, a 48 hour hackathon leveraging
+      the Salesforce platform, in which all code was written during the allowed start/end
+      times.</p>\r\n<ul>\r\n<li><strong>12th place in Heroku + Force.com category</strong>
+      for&nbsp;<a href=\"http://challengepost.com/software/copilot-commercial-real-estate-management-system\">CoPilot
+      Commercial Real Estate Management System</a>,&nbsp;a web application that manages
+      properties, task assignments, and comments through Salesforce Custom Objects,
+      Workflow, and Chatter APIs through use and extension of the <a href=\"https://github.com/ejholmes/restforce\">Restforce
+      gem</a>.</li>\r\n<li><strong>Open Source Ruby Prize</strong> for <a href=\"https://github.com/conroywhitney/restforce-sobject\">restforce-sobject</a>&nbsp;which
+      utilizes ruby metaprogramming to create a decorator pattern around Restforce
+      objects in order to</li>\r\n<ul>\r\n<li>Provide a ActiveRecord-esque interface
+      to query / save through Salesforce API</li>\r\n<li>Interact with Salesforce
+      objects in a more ruby-like way and standardize Custom Object interface and
+      attributes</li>\r\n<li>Encapsulate Chatter / Task API logic to provide consistent
+      interface for developer</li>\r\n</ul>\r\n</ul>"
+    logo: "/samples/content_entries/salesforce-logo.png"
+    url: https://developer.salesforce.com/million-dollar-hackathon
     skills: []
 - Integritive:
     _slug: integritive

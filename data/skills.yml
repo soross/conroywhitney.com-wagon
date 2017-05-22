@@ -5,6 +5,20 @@
     url: http://rubyonrails.org/
     image: "/samples/content_entries/ruby_on_rails.png"
     experiences: []
+- React.js:
+    _slug: react-dot-js
+    title: React.js
+    description: Your DOM is a representation of your state, not the other way around.
+    url: https://facebook.github.io/react/
+    image: "/samples/content_entries/reactjs.png"
+    experiences: []
+- Redux:
+    _slug: redux
+    title: Redux
+    description: Centralizing the Source of Truth™ for your application.
+    url: http://redux.js.org/
+    image: "/samples/content_entries/redux-logo.png"
+    experiences: []
 - Heroku:
     _slug: heroku
     title: Heroku
@@ -26,6 +40,13 @@
     url: https://www.ruby-lang.org/en/
     image: "/samples/content_entries/ruby-logo.png"
     experiences: []
+- RSpec:
+    _slug: rspec
+    title: RSpec
+    description: I don't think that method does what you think it does.
+    url: http://rspec.info/
+    image: "/samples/content_entries/rspec-logo.png"
+    experiences: []
 - New Relic:
     _slug: new-relic
     title: New Relic
@@ -39,6 +60,20 @@
     description: One-off tasks that make the business hum
     url: https://github.com/ruby/rake
     image: "/samples/content_entries/ruby-rake-not-real-logo.png"
+    experiences: []
+- Webpack:
+    _slug: webpack
+    title: Webpack
+    description: Open-source JavaScript module bundler.
+    url: https://webpack.js.org/
+    image: "/samples/content_entries/webpack-logo.png"
+    experiences: []
+- Redux Saga:
+    _slug: redux-saga
+    title: Redux Saga
+    description: An alternative side effect model for Redux apps.
+    url: https://github.com/redux-saga/redux-saga
+    image: "/samples/content_entries/redux-saga-logo.png"
     experiences: []
 - Redis:
     _slug: redis
@@ -60,13 +95,6 @@
     description: Semi-static content, delivered in a jiffy
     url: http://memcached.org/
     image: "/samples/content_entries/memcache-logo.png"
-    experiences: []
-- Rspec:
-    _slug: rspec
-    title: Rspec
-    description: I don't think that method does what you think it does.
-    url: http://rspec.info/
-    image: "/samples/content_entries/rspec-logo.png"
     experiences: []
 - Cucumber:
     _slug: cucumber
@@ -103,20 +131,26 @@
     url: http://jquery.com/
     image: "/samples/content_entries/jquery-logo.gif"
     experiences: []
+- Serverless Framework:
+    _slug: serverless-framework
+    title: Serverless Framework
+    description: Framework for building applications exclusively on AWS Lambda.
+    url: https://serverless.com/
+    image: "/samples/content_entries/serverless-logo.gif"
+    experiences: []
+- AWS Lambda:
+    _slug: aws-lambda
+    title: AWS Lambda
+    description: An event-driven, serverless computing platform.
+    url: https://aws.amazon.com/lambda/
+    image: "/samples/content_entries/aws-lambda-logo.png"
+    experiences: []
 - LocomotiveCMS:
     _slug: locomotivecms
     title: LocomotiveCMS
     description: Rails + CMS = The best of both worlds.
     url: http://locomotivecms.com/
     image: "/samples/content_entries/locomotivecms-logo.png"
-    experiences: []
-- Sinatra:
-    _slug: sinatra
-    title: Sinatra
-    description: 'Don''t use a machete when you need a scalpel. (hint: Sinatra''s
-      the scalpel)'
-    url: http://www.sinatrarb.com/
-    image: "/samples/content_entries/sinatra-logo.png"
     experiences: []
 - Resque:
     _slug: resque
@@ -146,6 +180,27 @@
     description: Static content, delivered in a jiffy
     url: http://aws.amazon.com/cloudfront/
     image: "/samples/content_entries/aws-cloudfront-logo.png"
+    experiences: []
+- GraphQL:
+    _slug: graphql
+    title: GraphQL
+    description: REST is a thing of the past, baby!
+    url: http://graphql.org/
+    image: "/samples/content_entries/graphql-logo.svg"
+    experiences: []
+- Apollo:
+    _slug: apollo
+    title: Apollo
+    description: A fully-featured, production ready caching GraphQL client.
+    url: http://www.apollodata.com/
+    image: "/samples/content_entries/apollo-logo.png"
+    experiences: []
+- Vue.js:
+    _slug: vue-dot-js
+    title: Vue.js
+    description: Intuitive, Fast and Composable MVVM for building interactive interfaces.
+    url: https://vuejs.org/
+    image: "/samples/content_entries/vue-logo.png"
     experiences: []
 - Git:
     _slug: git
@@ -181,6 +236,14 @@
     description: Mobile-first responsive website design
     url: http://getbootstrap.com/
     image: "/samples/content_entries/bootstrap-logo.png"
+    experiences: []
+- Sinatra:
+    _slug: sinatra
+    title: Sinatra
+    description: 'Don''t use a machete when you need a scalpel. (hint: Sinatra''s
+      the scalpel)'
+    url: http://www.sinatrarb.com/
+    image: "/samples/content_entries/sinatra-logo.png"
     experiences: []
 - Browser Stack:
     _slug: browser-stack
