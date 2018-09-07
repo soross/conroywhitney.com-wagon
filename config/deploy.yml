@@ -1,0 +1,5 @@
+production:
+  host: http://66.42.73.10:8080
+  handle: scenic-badlands-1588
+  email: pgyhh@sina.cn
+  api_key: 0be9ede6a76cf95e91e91f924956315447814f9f
